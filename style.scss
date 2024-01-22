@@ -1561,26 +1561,26 @@ $jobdescription: #00C6C3;
                                     .r1rcm_logo {
                                         margin: -39vh 0 0 0vw;
                                         #r1rcm {
-                                            width: 9vw;
-                                            height: 9vw;
+                                            width: 11vw;
+                                            height: 10vw;
                                         }
                                     }
                                     .r1rcm_description {
                                         // margin: 7.5vh 0 0 2.5vw;
-                                        margin: 13vh 0 0 8vw;
+                                        margin: 13vh 0 0 4.5vw;
                                         .main_description_r1rcm {
                                             transition: .9s all ease-in;
                                             border: none;
                                             background-color: $portfolios;
                                             h1 {
                                                 color: white;
-                                                font-size: 5vw;
+                                                font-size: 3vw;
                                                 font-family: 'Inter', sans-serif;
                                             }
                                             p {
                                                 color: $jobdescription;
                                                 font-size: 1em;
-                                                font-size: 3.5vw;
+                                                font-size: 2vw;
                                             }
                                         }
                                         .main_description_r1rcm.dissapear {
