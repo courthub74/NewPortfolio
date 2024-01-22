@@ -1337,19 +1337,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 9vw 0 0;
+    margin: 0 0vw 0 0;
     width: 90vw;
     height: 35vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_logo {
-    margin: -34vh 0 0 7.5vw;
+    margin: -41vh 0 0 7.2vw;
+    z-index: 100;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_logo #slea {
     width: 12vw;
     height: 12vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description {
-    margin: 18vh 0 0 7.5vw;
+    margin: 12vh 0 0 -9.5vw;
     width: 100%;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea {
@@ -1397,13 +1398,15 @@
     justify-content: center;
     align-items: center;
     margin: 0 6vw 0 0;
+    width: 90vw;
+    height: 35vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_logo {
-    margin: 0vh 0 0 8vw;
+    margin: -39vh 0 0 0vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_logo #r1rcm {
-    width: 19vw;
-    height: 14vw;
+    width: 9vw;
+    height: 9vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description {
     margin: 13vh 0 0 8vw;

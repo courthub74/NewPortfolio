@@ -1490,12 +1490,13 @@ $jobdescription: #00C6C3;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
-                                    margin: 0 9vw 0 0;
+                                    margin: 0 0vw 0 0;
                                     // background-color: #00C6C3;
                                     width: 90vw;
                                     height: 35vw;
                                     .slea_logo {
-                                        margin: -34vh 0 0 7.5vw;
+                                        margin: -41vh 0 0 7.2vw;
+                                        z-index: 100;
                                         #slea {
                                             width: 12vw;
                                             height: 12vw;
@@ -1503,7 +1504,7 @@ $jobdescription: #00C6C3;
                                     }
                                     .slea_description {
                                         // margin: 7.5vh 0 0 2.5vw;
-                                        margin: 18vh 0 0 7.5vw;
+                                        margin: 12vh 0 0 -9.5vw;
                                         width: 100%;
                                         .main_description_slea {
                                                 transition: .9s all ease-in;
@@ -1554,11 +1555,14 @@ $jobdescription: #00C6C3;
                                     justify-content: center;
                                     align-items: center;
                                     margin: 0 6vw 0 0;
+                                    // background-color: #00C6C3;
+                                    width: 90vw;
+                                    height: 35vw;
                                     .r1rcm_logo {
-                                        margin: 0vh 0 0 8vw;
+                                        margin: -39vh 0 0 0vw;
                                         #r1rcm {
-                                            width: 19vw;
-                                            height: 14vw;
+                                            width: 9vw;
+                                            height: 9vw;
                                         }
                                     }
                                     .r1rcm_description {
