@@ -1108,15 +1108,19 @@ $jobdescription: #00C6C3;
                                         //     margin: 0 1vw 0 0;
                                         // }
                                         #create_collab {
-                                            margin: 0 0 0 5vw;
+                                            margin: 0 0 0 0vw;
+                                            height: 7vh;
                                             // width: 66vw;
                                         }
-                                        // #msy {
-                                        //     width: 65vw;
-                                        // }
-                                        // #workflow_app {
-                                        //     width: 64vw;
-                                        // }
+                                        #msy {
+                                            margin: 0 2vw 0 0;
+                                            height: 20vh;
+                                            // width: 65vw;
+                                        }
+                                        #workflow_app {
+                                            margin: 0 2vw 0 0;
+                                            width: 27vw;
+                                        }
                                     }
                                 }
                             }
@@ -1418,7 +1422,7 @@ $jobdescription: #00C6C3;
                             .experience_box {
                                 width: 80vw;
                                 height: 16vw;
-                                border-radius: 10px;
+                                border-radius: 5px;
                                 border: none;
                                 background-color: $portfolios;
                                 box-shadow: 6px 6px 10px black;
@@ -1432,13 +1436,13 @@ $jobdescription: #00C6C3;
                                     .courdevelops_logo {
                                         margin: -18vh 0 0 7vw;
                                         #courdevelops {
-                                            width: 12vw;
-                                            height: 12vw;
+                                            width: 10vw;
+                                            height: 10vw;
                                         }
                                     } 
                                     .courdevelops_description {
                                         // margin: 7.5vh 0 0 2.5vw;
-                                        margin: 16vh 0 0 15vw;
+                                        margin: 17vh 0 0 20vw;
                                         display: flex;
                                         flex-direction: column;
                                         // transition: 1s all ease-in;
@@ -1447,7 +1451,7 @@ $jobdescription: #00C6C3;
                                             position: absolute;
                                             h1 {
                                                 color: white;
-                                                font-size: 3vw;
+                                                font-size: 2.5vw;
                                                 font-family: 'Inter', sans-serif;
                                             }
                                             p {
@@ -1494,16 +1498,16 @@ $jobdescription: #00C6C3;
                                     width: 90vw;
                                     height: 35vw;
                                     .slea_logo {
-                                        margin: -41vh 0 0 7.2vw;
-                                        z-index: 100;
+                                        margin: -41vh 0 0 7vw;
+                                        z-index: 1;
                                         #slea {
-                                            width: 12vw;
-                                            height: 12vw;
+                                            width: 10vw;
+                                            height: 10vw;
                                         }
                                     }
                                     .slea_description {
                                         // margin: 7.5vh 0 0 2.5vw;
-                                        margin: 12vh 0 0 -9.5vw;
+                                        margin: 12vh 0 0 -4.5vw;
                                         width: 100%;
                                         .main_description_slea {
                                                 transition: .9s all ease-in;
@@ -1553,20 +1557,21 @@ $jobdescription: #00C6C3;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
+                                    gap: 3vw;
                                     margin: 0 6vw 0 0;
                                     // background-color: #00C6C3;
                                     width: 90vw;
                                     height: 35vw;
                                     .r1rcm_logo {
-                                        margin: -39vh 0 0 0vw;
+                                        margin: -42vh 0 0 -1vw;
                                         #r1rcm {
-                                            width: 11vw;
-                                            height: 10vw;
+                                            width: 9vw;
+                                            height: 8vw;
                                         }
                                     }
                                     .r1rcm_description {
                                         // margin: 7.5vh 0 0 2.5vw;
-                                        margin: 13vh 0 0 4.5vw;
+                                        margin: 13vh 0 0 6.5vw;
                                         .main_description_r1rcm {
                                             transition: .9s all ease-in;
                                             border: none;
