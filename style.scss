@@ -109,7 +109,7 @@ $jobdescription: #00C6C3;
                         }
                     
                 }
-                // HOME SECTION
+                // HOME SECTION (PORTRAIT)
                 #home_section_id {
                     .home_section_class {
                         height: 100vh;
@@ -192,7 +192,7 @@ $jobdescription: #00C6C3;
                         }
                     }
                 }
-                // ABOUT SECTION
+                // ABOUT SECTION (PORTRAIT)
                 #about_section_id {
                     .about_section_class {
                         display: flex;
@@ -260,7 +260,7 @@ $jobdescription: #00C6C3;
                         }
                     }
                 }
-                // PORTFOLIO SECTION
+                // PORTFOLIO SECTION (PORTRAIT)
                 #portfolio_section_id {
                     .portfolio_section_class {
                         display: flex;
@@ -324,7 +324,7 @@ $jobdescription: #00C6C3;
                         }
                     }
                 }
-                // SKILLS SECTION
+                // SKILLS SECTION (PORTRAIT)
                 #skills_section_id {
                     .skills_section_class {
                         height: 100vh;
@@ -588,7 +588,7 @@ $jobdescription: #00C6C3;
                         }
                     }
                 }
-                // EXPERIENCE SECTION
+                // EXPERIENCE SECTION (PORTRAIT)
                 #experience_section_id {
                     .experience_section_class {
                         height: 100vh;
@@ -617,7 +617,7 @@ $jobdescription: #00C6C3;
                                 border: none;
                                 background-color: $portfolios;
                                 box-shadow: 6px 6px 10px black;
-                                // Courdevelops
+                                // Courdevelops (PORTRAIT)
                                 .courdevs_content {
                                     display: flex;
                                     justify-content: center;
@@ -678,7 +678,7 @@ $jobdescription: #00C6C3;
                                         }
                                     }
                                 }
-                                // SLEA
+                                // SLEA (PORTRAIT)
                                 .slea_content {
                                     display: flex;
                                     justify-content: center;
@@ -741,7 +741,7 @@ $jobdescription: #00C6C3;
                                         }
                                     }   
                                 }
-                                // R1RCM
+                                // R1RCM (PORTRAIT)
                                 .r1rcm_content {
                                     display: flex;
                                     justify-content: center;
@@ -805,7 +805,7 @@ $jobdescription: #00C6C3;
                         }
                     }
                 }
-                // BLOG SECTION
+                // BLOG SECTION (PORTRAIT)
                 .blog_section_id {
                     .blog_section_class {
                         display: flex;
@@ -818,6 +818,45 @@ $jobdescription: #00C6C3;
                             font-size: 10vw;
                             font-weight: bold;
                             color: white;
+                        }
+                        // BLOG CIRCLES
+                        .blog_circles {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5vh;
+                            height: 80vh;
+                            .blog_button {
+                                display: flex;
+                                background-color: $nextgreen;
+                                // border: none;
+                                width: 80vw;
+                                height: 40vw;
+                                .blog_circle {
+                                    .back_blog {
+                                        background-color: $skillsteal;
+                                        width: 40vw;
+                                        height: 40vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        border: 2px solid $darkblue;
+                                        border-radius: 50%;
+                                        .front_blog {
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            background-color: $darkblue;
+                                            width: 35vw;
+                                            height: 35vw;
+                                            color: white;
+                                            position: absolute;
+                                            border-radius: 50%;
+                                        }
+                                    }
+                                }
+                            }
                         }
                     }
                 }
@@ -900,7 +939,7 @@ $jobdescription: #00C6C3;
                         opacity: 0;
                     }
                 }
-                // HOME SECTION
+                // HOME SECTION (LANDSCAPE)
                 #home_section_id {
                     .home_section_class {
                         height: 200vh;
@@ -987,7 +1026,7 @@ $jobdescription: #00C6C3;
                         }
                     }
                 }
-                // ABOUT SECTION
+                // ABOUT SECTION (LANDSCAPE)
                 #about_section_id {
                     .about_section_class {
                         display: flex;
@@ -1060,7 +1099,7 @@ $jobdescription: #00C6C3;
                         }
                     }
                 }
-                // PORTFOLIO
+                // PORTFOLIO (LANDSCAPE)
                 #portfolio_section_id {
                     .portfolio_section_class {
                         display: flex;
@@ -1127,7 +1166,7 @@ $jobdescription: #00C6C3;
                         }
                     }
                 }
-                // SKILLS
+                // SKILLS (LANDSCAPE)
                 #skills_section_id {
                     .skills_section_class {
                         display: flex;
@@ -1399,7 +1438,7 @@ $jobdescription: #00C6C3;
                         }
                     }
                 }
-                // EXPERIENCE SECTION
+                // EXPERIENCE SECTION (LANDSCAPE)
                 #experience_section_id {
                     .experience_section_class {
                         height: 200vh;
@@ -1617,6 +1656,30 @@ $jobdescription: #00C6C3;
                                     }
                                 }
                             }
+                        }
+                    }
+                }
+                // BLOG SECTION (LANDSCAPE)
+                .blog_section_id {
+                    .blog_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        height: 200vh;
+                        background-color: $nextgreen;
+                        .section_title {
+                            margin: 5vh 0 0 10vw;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 6vw;
+                            font-weight: bold;
+                            color: white;
+                        }
+                        // BLOG CIRCLES
+                        .blog_circles {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            height: 80vh;
                         }
                     }
                 }
