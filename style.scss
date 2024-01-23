@@ -606,18 +606,17 @@ $jobdescription: #00C6C3;
                             justify-content: center;
                             align-items: center;
                             gap: 5vh;
-                            margin: 7vh 5vw 0 0;
+                            margin: 7vh 3vw 0 0;
                             .experience_box {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 75vw;
+                                width: 77vw;
                                 height: 35vw;
                                 border-radius: 5px;
                                 border: none;
                                 background-color: $portfolios;
                                 box-shadow: 6px 6px 10px black;
-                                display: flex;
                                 // Courdevelops
                                 .courdevs_content {
                                     display: flex;
@@ -689,15 +688,15 @@ $jobdescription: #00C6C3;
                                     width: 90vw;
                                     height: 35vw;
                                     .slea_logo {
-                                        margin: 0vh 0 0 8vw;
+                                        margin: 0vh 0 0 6vw;
                                         #slea {
-                                            width: 20vw;
-                                            height: 21vw;
+                                            width: 21vw;
+                                            height: 23vw;
                                         }
                                     }
                                     .slea_description {
                                         // margin: 7.5vh 0 0 2.5vw;
-                                        margin: 18vh 0 0 7.5vw;
+                                        margin: 18vh 0 0 8vw;
                                         width: 100%;
                                         .main_description_slea {
                                                 transition: .9s all ease-in;
@@ -749,7 +748,7 @@ $jobdescription: #00C6C3;
                                     align-items: center;
                                     margin: 0 6vw 0 0;
                                     .r1rcm_logo {
-                                        margin: 0vh 0 0 8vw;
+                                        margin: 0vh 0 0 6.5vw;
                                         #r1rcm {
                                             width: 19vw;
                                             height: 14vw;
@@ -757,7 +756,7 @@ $jobdescription: #00C6C3;
                                     }
                                     .r1rcm_description {
                                         // margin: 7.5vh 0 0 2.5vw;
-                                        margin: 13vh 0 0 8vw;
+                                        margin: 13vh 0 0 3vw;
                                         .main_description_r1rcm {
                                             transition: .9s all ease-in;
                                             border: none;

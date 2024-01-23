@@ -529,19 +529,18 @@
     justify-content: center;
     align-items: center;
     gap: 5vh;
-    margin: 7vh 5vw 0 0;
+    margin: 7vh 3vw 0 0;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 75vw;
+    width: 77vw;
     height: 35vw;
     border-radius: 5px;
     border: none;
     background-color: #36395D;
     box-shadow: 6px 6px 10px black;
-    display: flex;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content {
     display: flex;
@@ -609,14 +608,14 @@
     height: 35vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_logo {
-    margin: 0vh 0 0 8vw;
+    margin: 0vh 0 0 6vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_logo #slea {
-    width: 20vw;
-    height: 21vw;
+    width: 21vw;
+    height: 23vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description {
-    margin: 18vh 0 0 7.5vw;
+    margin: 18vh 0 0 8vw;
     width: 100%;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea {
@@ -666,14 +665,14 @@
     margin: 0 6vw 0 0;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_logo {
-    margin: 0vh 0 0 8vw;
+    margin: 0vh 0 0 6.5vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_logo #r1rcm {
     width: 19vw;
     height: 14vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description {
-    margin: 13vh 0 0 8vw;
+    margin: 13vh 0 0 3vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm {
     transition: 0.9s all ease-in;
