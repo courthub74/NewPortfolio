@@ -832,8 +832,8 @@ $jobdescription: #00C6C3;
                                 justify-content: center;
                                 align-items: center;
                                 background-color: $nextgreen;
-                                // border: none;
-                                width: 80vw;
+                                border: none;
+                                width: 90vw;
                                 height: 40vw;
                                 .blog_circle {
                                     z-index: 1;
@@ -845,6 +845,7 @@ $jobdescription: #00C6C3;
                                         justify-content: center;
                                         align-items: center;
                                         border: 2px solid $darkblue;
+                                        box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
                                         border-radius: 50%;
                                         .front_blog {
                                             display: flex;
@@ -856,19 +857,28 @@ $jobdescription: #00C6C3;
                                             color: white;
                                             position: absolute;
                                             border-radius: 50%;
+                                            font-size: 4vw;
                                         }
                                     }
                                 }
                                 .tag_one {
                                     width: 60vw;
-                                    height: 20vw;
+                                    height: 25vw;
                                     background-color: $darkblue;
                                     border-radius: 5px;
                                     color: white;
                                     display: flex;
+                                    flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
+                                    gap: 2vw;
                                     margin: 0 0 0 -10vw;
+                                    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+                                    p {
+                                        margin: 0 0 0 4vw;
+                                        font-size: 4vw;
+                                        font-family: 'Roboto', sans-serif;
+                                    }
                                 }
                             }
                         }
@@ -1678,7 +1688,7 @@ $jobdescription: #00C6C3;
                     .blog_section_class {
                         display: flex;
                         flex-direction: column;
-                        height: 210vh;
+                        height: 230vh;
                         background-color: $nextgreen;
                         .section_title {
                             margin: 5vh 0 0 10vw;
@@ -1693,37 +1703,58 @@ $jobdescription: #00C6C3;
                             flex-direction: column;
                             justify-content: center;
                             align-items: center;
-                            margin: 10vh 0 0 0;
-                            gap: 5vh;
+                            margin: 12vh 0 0 0;
+                            gap: 10vh;
                             // height: 80vh;
                             .blog_button {
                                 display: flex;
                                 background-color: $nextgreen;
-                                // border: none;
+                                border: none;
                                 width: 80vw;
                                 height: 25vw;
                                 .blog_circle {
+                                    z-index: 1;
                                     .back_blog {
                                         background-color: $skillsteal;
-                                        width: 23vw;
-                                        height: 23vw;
+                                        width: 25vw;
+                                        height: 25vw;
                                         display: flex;
                                         justify-content: center;
                                         align-items: center;
                                         border: 2px solid $darkblue;
                                         border-radius: 50%;
+                                        box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
                                         .front_blog {
                                             display: flex;
                                             justify-content: center;
                                             align-items: center;
                                             background-color: $darkblue;
-                                            width: 20vw;
-                                            height: 20vw;
+                                            width: 22vw;
+                                            height: 22vw;
                                             color: white;
                                             font-size: 2vw;
                                             position: absolute;
                                             border-radius: 50%;
                                         }
+                                    }
+                                }
+                                .tag_one {
+                                    width: 55vw;
+                                    height: 15vw;
+                                    background-color: $darkblue;
+                                    border-radius: 5px;
+                                    color: white;
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    gap: 2vw;
+                                    margin: 10vh 0 0 -5vw;
+                                    box-shadow: 0px 4px 4px 4px rgba(0, 0, 0, 0.25);
+                                    p {
+                                        margin: 0 0 0 4vw;
+                                        font-size: 2vw;
+                                        font-family: 'Roboto', sans-serif;
                                     }
                                 }
                             }
