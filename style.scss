@@ -18,6 +18,8 @@ $skillsteal: #146166;
 $boxshadowcircles: rgba(0, 0, 0, 0.521);
 // Job Descriptions
 $jobdescription: #00C6C3;
+// First Blue
+$firstblue: #58a6ff;
 
 // MOBILE VERSIONS
 
@@ -197,7 +199,7 @@ $jobdescription: #00C6C3;
                     .about_section_class {
                         display: flex;
                         flex-direction: column;
-                        height: 150vh;
+                        height: 170vh;
                         background-color: $nextgreen;
                         .section_title {
                             margin: 5vh 0 0 10vw;
@@ -806,7 +808,7 @@ $jobdescription: #00C6C3;
                     }
                 }
                 // BLOG SECTION (PORTRAIT)
-                .blog_section_id {
+                #blog_section_id {
                     .blog_section_class {
                         display: flex;
                         flex-direction: column;
@@ -880,6 +882,117 @@ $jobdescription: #00C6C3;
                                         font-family: 'Roboto', sans-serif;
                                     }
                                 }
+                            }
+                        }
+                    }
+                }
+                // CONTACT SECTION (PORTRAIT)
+                #contact_section_id {
+                    .contact_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        height: 100vh;
+                        background-color: $darkblue;
+                        .section_title {
+                            margin: 5vh 0 0 10vw;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 10vw;
+                            font-weight: bold;
+                            color: white;
+                        }
+                        .contact_section_form {
+                            height: 80vh;
+                            margin: 5vh 0 0 0;
+                            form {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 3vh;
+                                // background-color: #00C6C3;
+                                .input_div {
+                                    display: flex;
+                                    flex-direction: column;
+                                    label {
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 5vw;
+                                        color: white;
+                                    }
+                                    input {
+                                        background-color: $portfolios;
+                                        border: none;
+                                        border-radius: 5px;
+                                        width: 78vw;
+                                        height: 10vw;
+                                    }
+                                    textarea {
+                                        background-color: $portfolios;
+                                        height: 30vh;
+                                        width: 78vw;
+                                        border: none;
+                                        border-radius: 5px;
+                                        resize: none;
+                                    }
+                                }
+                                .submit_button {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    #submitemail {
+                                        background-color: $portfolios;
+                                        border: none;
+                                        box-shadow: 3px 3px 2px $boxshadowcircles;
+                                        border-radius: 5px;
+                                        width: 78vw;
+                                        height: 10vw;
+                                        p {
+                                            color: white;
+                                            font-size: 1.5em;
+                                        }
+                                    }
+                                }
+                                        // FOOTER
+                                        .poweredby {
+                                            small {
+                                                .tabletsocials {
+                                                    margin: 1vh 0 0 0vw;
+                                                    display: flex;
+                                                    justify-content: center;
+                                                    align-items: center;
+                                                    gap: 3vw;
+                                                    #github {
+                                                        width: 14vw;
+                                                        height: 14vw;
+                                                    }
+                                                    #linkedin {
+                                                        width: 12vw;
+                                                        height: 12vw;
+                                                    }
+                                                    #twitter {
+                                                        width: 15vw;
+                                                        height: 15vw;
+                                                    }
+                                                    #instagram {
+                                                        width: 12vw;
+                                                        height: 12vw;
+                                                    }
+                                                }
+                                            }
+                                            .copyrights {
+                                                display: flex;
+                                                margin: 4vh 0 0 0;
+                                                p {
+                                                    color: $portfolios;
+                                                    font-size: 1.2em;
+                                                    // font-weight: bold;
+                                                    font-family: 'Inter', sans-serif;
+                                                }
+                                                .courdev {
+                                                    color: $firstblue;
+                                                    font-family: 'Inter', sans-serif;
+                                                }
+                                            }
+                                        }
                             }
                         }
                     }
@@ -1465,7 +1578,7 @@ $jobdescription: #00C6C3;
                 // EXPERIENCE SECTION (LANDSCAPE)
                 #experience_section_id {
                     .experience_section_class {
-                        height: 200vh;
+                        height: 170vh;
                         background-color: $darkblue;
                         .section_title {
                             margin: 5vh 0 0 10vw;
@@ -1684,7 +1797,7 @@ $jobdescription: #00C6C3;
                     }
                 }
                 // BLOG SECTION (LANDSCAPE)
-                .blog_section_id {
+                #blog_section_id {
                     .blog_section_class {
                         display: flex;
                         flex-direction: column;
@@ -1755,6 +1868,116 @@ $jobdescription: #00C6C3;
                                         margin: 0 0 0 4vw;
                                         font-size: 2vw;
                                         font-family: 'Roboto', sans-serif;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // CONTACT SECTION (LANDSCAPE)
+                #contact_section_id {
+                    .contact_section_class {
+                        display: flex;
+                        flex-direction: column;
+                        height: 240vh;
+                        background-color: $darkblue;
+                        .section_title {
+                            margin: 5vh 0 0 10vw;
+                            font-family: 'Inter', sans-serif;
+                            font-size: 6vw;
+                            font-weight: bold;
+                            color: white;
+                        }
+                        .contact_section_form {
+                            height: 80vh;
+                            margin: 10vh 0 0 0;
+                            form {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 10vh;
+                                // background-color: #00C6C3;
+                                .input_div {
+                                    display: flex;
+                                    flex-direction: column;
+                                    label {
+                                        font-family: 'Inter', sans-serif;
+                                        font-size: 3vw;
+                                        color: white;
+                                    }
+                                    input {
+                                        background-color: $portfolios;
+                                        border: none;
+                                        border-radius: 5px;
+                                        width: 78vw;
+                                        height: 7vw;
+                                    }
+                                    textarea {
+                                        background-color: $portfolios;
+                                        height: 55vh;
+                                        width: 78vw;
+                                        border: none;
+                                        border-radius: 5px;
+                                        resize: none;
+                                    }
+                                }
+                                .submit_button {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    #submitemail {
+                                        background-color: $portfolios;
+                                        border: none;
+                                        box-shadow: 3px 3px 2px $boxshadowcircles;
+                                        border-radius: 5px;
+                                        width: 78vw;
+                                        height: 7vw;
+                                        p {
+                                            color: white;
+                                            font-size: 1.5em;
+                                        }
+                                    }
+                                }
+                                .poweredby {
+                                    small {
+                                        .tabletsocials {
+                                            margin: 1vh 0 0 0vw;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 3vw;
+                                            #github {
+                                                width: 14vw;
+                                                height: 14vw;
+                                            }
+                                            #linkedin {
+                                                width: 12vw;
+                                                height: 12vw;
+                                            }
+                                            #twitter {
+                                                width: 15vw;
+                                                height: 15vw;
+                                            }
+                                            #instagram {
+                                                width: 12vw;
+                                                height: 12vw;
+                                            }
+                                        }
+                                    }
+                                    .copyrights {
+                                        display: flex;
+                                        margin: 4vh 0 0 0;
+                                        p {
+                                            color: $portfolios;
+                                            font-size: 1.2em;
+                                            // font-weight: bold;
+                                            font-family: 'Inter', sans-serif;
+                                        }
+                                        .courdev {
+                                            color: $firstblue;
+                                            font-family: 'Inter', sans-serif;
+                                        }
                                     }
                                 }
                             }
