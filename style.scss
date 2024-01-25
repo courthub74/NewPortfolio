@@ -72,12 +72,15 @@ $firstblue: #58a6ff;
                                     font-family: 'Inter', sans-serif;
                                     font-weight: bold;
                                     font-size: 5vw;
-                                    margin: 0 0 1vh 1vw;
+                                    margin: 0 0 .5vh 1vw;
                                 }
                                 #job_description {
                                     color: white;
+                                    color: $jobdescription;
                                     font-family: 'Inter', sans-serif;
                                     border: 1px solid white;
+                                    border: 1px solid $portfolios;
+                                    background-color: $portfolios;
                                     border-radius: 5px;
                                     font-size: 3vw;
                                     padding: .8vh;
@@ -155,12 +158,15 @@ $firstblue: #58a6ff;
                                     // font-weight: bold;
                                     font-size: 5vw;
                                     border: 1px solid white;
+                                    border: 1px solid $portfolios;
                                     border-radius: 5px;
                                     background-color: white;
+                                    background-color: $portfolios;
                                     width: 60vw;
                                     height: 3vw;
                                     padding: 4vw;
                                     color: $darkblue;
+                                    color: $jobdescription;
                                 }
                             }
                             .home_slogan {
@@ -180,14 +186,15 @@ $firstblue: #58a6ff;
                                 border: 1px solid $portfolios;
                                 border-radius: 5px;
                                 background-color: $portfolios;
-                                width: 60vw;
-                                height: 3vw;
+                                width: 68vw;
+                                height: 2vw;
                                 padding: 4vw;
+                                box-shadow: 2px 2px 2px 2px $boxshadowcircles;
                                 a {
                                     color: white;
                                     font-family: 'Inter', sans-serif;
                                     font-size: 5vw;
-                                    font-weight: bold;
+                                    // font-weight: bold;
                                     text-decoration: none;
                                 }
                             }
@@ -248,15 +255,16 @@ $firstblue: #58a6ff;
                                 justify-content: center;
                                 align-items: center;
                                 background-color: $skillsteal;
-                                width: 63vw;
-                                height: 3vw;
+                                width: 68vw;
+                                height: 2vw;
                                 padding: 4vw 4vh;
                                 margin: 5vh 0 0 0;
                                 border-radius: 5px;
+                                box-shadow: 2px 2px 2px 2px $boxshadowcircles;
                                 a {
                                     color: white;
                                     text-decoration: none;
-                                    font-weight: bold;
+                                    // font-weight: bold;
                                 }
                             }
                         }
@@ -833,7 +841,7 @@ $firstblue: #58a6ff;
                             align-items: center;
                             gap: 5vh;
                             height: 80vh;
-                            margin: 0 0 0 -5vw;
+                            margin: 0 0 0 -3vw;
                             // background-color: #146166;
                             .blog_button {
                                 display: flex;
@@ -950,52 +958,61 @@ $firstblue: #58a6ff;
                                         box-shadow: 3px 3px 2px $boxshadowcircles;
                                         border-radius: 5px;
                                         width: 78vw;
-                                        height: 10vw;
+                                        height: 12vw;
                                         p {
                                             color: white;
                                             font-size: 1.5em;
                                         }
                                     }
                                 }
-                                        // FOOTER
+                                        // FOOTER (PORTRAIT)
                                         .poweredby {
                                             small {
                                                 .tabletsocials {
-                                                    margin: 1vh 0 0 0vw;
+                                                    margin: 0vh 0 0 0vw;
                                                     display: flex;
                                                     justify-content: center;
                                                     align-items: center;
-                                                    gap: 3vw;
+                                                    gap: 18vw;
                                                     #github {
-                                                        width: 14vw;
-                                                        height: 14vw;
+                                                        width: 7vw;
+                                                        height: 7vw;
                                                     }
                                                     #linkedin {
-                                                        width: 12vw;
-                                                        height: 12vw;
+                                                        width: 7vw;
+                                                        height: 8vw;
                                                     }
                                                     #twitter {
-                                                        width: 15vw;
-                                                        height: 15vw;
+                                                        width: 5vw;
+                                                        height: 5vw;
                                                     }
                                                     #instagram {
-                                                        width: 12vw;
-                                                        height: 12vw;
+                                                        width: 6vw;
+                                                        height: 6.5vw;
                                                     }
                                                 }
                                             }
                                             .copyrights {
                                                 display: flex;
-                                                margin: 4vh 0 0 0;
+                                                justify-content: center;
+                                                gap: 1vw;
+                                                margin: 4vh 0 0 -1vw;
+                                                #copyright_courdevs {
+                                                    margin: -.7vh 0 0 0;
+                                                    width: 8vw;
+                                                    height: 8vw;
+                                                }
                                                 p {
                                                     color: $portfolios;
-                                                    font-size: 1.2em;
+                                                    font-size: 4vw;
                                                     // font-weight: bold;
                                                     font-family: 'Inter', sans-serif;
                                                 }
                                                 .courdev {
+                                                    margin: 0 -2vw 0 0vw;
                                                     color: $firstblue;
                                                     font-family: 'Inter', sans-serif;
+                                                    font-size: 4vw;
                                                 }
                                             }
                                         }

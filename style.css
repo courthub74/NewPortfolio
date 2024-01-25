@@ -37,12 +37,15 @@
     font-family: "Inter", sans-serif;
     font-weight: bold;
     font-size: 5vw;
-    margin: 0 0 1vh 1vw;
+    margin: 0 0 0.5vh 1vw;
   }
   * body .container .nav_section .the_navbar .you #job_description {
     color: white;
+    color: #00C6C3;
     font-family: "Inter", sans-serif;
     border: 1px solid white;
+    border: 1px solid #36395D;
+    background-color: #36395D;
     border-radius: 5px;
     font-size: 3vw;
     padding: 0.8vh;
@@ -112,12 +115,15 @@
     font-family: "Inter", sans-serif;
     font-size: 5vw;
     border: 1px solid white;
+    border: 1px solid #36395D;
     border-radius: 5px;
     background-color: white;
+    background-color: #36395D;
     width: 60vw;
     height: 3vw;
     padding: 4vw;
     color: #080E2F;
+    color: #00C6C3;
   }
   * body .container #home_section_id .home_section_class .home_section_content .home_slogan {
     display: flex;
@@ -135,15 +141,15 @@
     border: 1px solid #36395D;
     border-radius: 5px;
     background-color: #36395D;
-    width: 60vw;
-    height: 3vw;
+    width: 68vw;
+    height: 2vw;
     padding: 4vw;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body .container #home_section_id .home_section_class .home_section_content .learn_more a {
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 5vw;
-    font-weight: bold;
     text-decoration: none;
   }
   * body .container #about_section_id .about_section_class {
@@ -196,16 +202,16 @@
     justify-content: center;
     align-items: center;
     background-color: #146166;
-    width: 63vw;
-    height: 3vw;
+    width: 68vw;
+    height: 2vw;
     padding: 4vw 4vh;
     margin: 5vh 0 0 0;
     border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body .container #about_section_id .about_section_class .about_section_content .resume_button_div a {
     color: white;
     text-decoration: none;
-    font-weight: bold;
   }
   * body .container #portfolio_section_id .portfolio_section_class {
     display: flex;
@@ -735,7 +741,7 @@
     align-items: center;
     gap: 5vh;
     height: 80vh;
-    margin: 0 0 0 -5vw;
+    margin: 0 0 0 -3vw;
   }
   * body .container #blog_section_id .blog_section_class .blog_circles .blog_button {
     display: flex;
@@ -850,47 +856,56 @@
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.521);
     border-radius: 5px;
     width: 78vw;
-    height: 10vw;
+    height: 12vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .submit_button #submitemail p {
     color: white;
     font-size: 1.5em;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby small .tabletsocials {
-    margin: 1vh 0 0 0vw;
+    margin: 0vh 0 0 0vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3vw;
+    gap: 18vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby small .tabletsocials #github {
-    width: 14vw;
-    height: 14vw;
+    width: 7vw;
+    height: 7vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby small .tabletsocials #linkedin {
-    width: 12vw;
-    height: 12vw;
+    width: 7vw;
+    height: 8vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby small .tabletsocials #twitter {
-    width: 15vw;
-    height: 15vw;
+    width: 5vw;
+    height: 5vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby small .tabletsocials #instagram {
-    width: 12vw;
-    height: 12vw;
+    width: 6vw;
+    height: 6.5vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby .copyrights {
     display: flex;
-    margin: 4vh 0 0 0;
+    justify-content: center;
+    gap: 1vw;
+    margin: 4vh 0 0 -1vw;
+  }
+  * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby .copyrights #copyright_courdevs {
+    margin: -0.7vh 0 0 0;
+    width: 8vw;
+    height: 8vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby .copyrights p {
     color: #36395D;
-    font-size: 1.2em;
+    font-size: 4vw;
     font-family: "Inter", sans-serif;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby .copyrights .courdev {
+    margin: 0 -2vw 0 0vw;
     color: #58a6ff;
     font-family: "Inter", sans-serif;
+    font-size: 4vw;
   }
 }
 @media only screen and (orientation: landscape) {
