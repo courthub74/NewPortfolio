@@ -354,8 +354,8 @@ $firstblue: #58a6ff;
                                     // flex-direction: column;
                                     justify-content: center;
                                     align-items: center;
-                                    margin: 4vh 0 0 6vh;
-                                    gap: 3vw;
+                                    margin: 4vh 0 0 4.5vh;
+                                    gap: 1.5vw;
                                     .skill_circle {
                                         display: flex;
                                         flex-direction: column;
@@ -614,7 +614,7 @@ $firstblue: #58a6ff;
                                 justify-content: center;
                                 align-items: center;
                                 width: 77vw;
-                                height: 35vw;
+                                height: 40vw;
                                 border-radius: 5px;
                                 border: none;
                                 background-color: $portfolios;
@@ -624,27 +624,29 @@ $firstblue: #58a6ff;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
-                                    margin: 0 6vw 0 0;
+                                    gap: 8vw;
+                                    // margin: 0 6vw 0 0;
                                     .courdevelops_logo {
-                                        margin: 0 12vw 0 0;
+                                        // margin: 0 12vw 0 0;
                                         #courdevelops {
-                                            width: 18vw;
-                                            height: 18vw;
+                                            width: 23vw;
+                                            height: 23vw;
                                         }
                                     } 
                                     .courdevelops_description {
-                                        // margin: 7.5vh 0 0 2.5vw;
-                                        margin: 8vh 0 0 -7vw;
                                         display: flex;
+                                        justify-content: center;
+                                        align-items: center;
                                         flex-direction: column;
                                         // transition: 1s all ease-in;
                                         .main_description {
                                             transition: .9s all ease-in;
                                             position: absolute;
-                                            h1 {
+                                            .company_name {
                                                 color: white;
-                                                font-size: 5vw;
+                                                font-size: 4vw;
                                                 font-family: 'Inter', sans-serif;
+                                                font-weight: bold;
                                             }
                                             p {
                                                 color: $jobdescription;
@@ -685,29 +687,29 @@ $firstblue: #58a6ff;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
-                                    margin: 0 10vw 0 0;
-                                    // background-color: #00C6C3;
-                                    width: 90vw;
-                                    height: 35vw;
+                                    gap: 5.5vw;
+                                    margin-left: -2vw;
                                     .slea_logo {
                                         margin: 0vh 0 0 6vw;
                                         #slea {
-                                            width: 18vw;
-                                            height: 18vw;
+                                            width: 22vw;
+                                            height: 22vw;
                                         }
                                     }
                                     .slea_description {
-                                        // margin: 7.5vh 0 0 2.5vw;
-                                        margin: 18vh 0 0 8vw;
-                                        width: 100%;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        flex-direction: column;
                                         .main_description_slea {
                                                 transition: .9s all ease-in;
-                                                border: none;
-                                                background-color: $portfolios;
-                                            h1 {
+                                                position: absolute;
+                                                // background-color: $portfolios;
+                                            .company_name {
                                                 color: white;
-                                                font-size: 5vw;
+                                                font-size: 4vw;
                                                 font-family: 'Inter', sans-serif;
+                                                font-weight: bold;
                                             }
                                             p {
                                                 color: $jobdescription;
@@ -748,29 +750,31 @@ $firstblue: #58a6ff;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
-                                    margin: 0 6vw 0 0;
+                                    gap: 4vw;
+                                    margin: 0 0vw 0 8vw;
                                     .r1rcm_logo {
-                                        margin: 0vh 0 0 6.5vw;
+                                        // margin: 0vh 0 0 6.5vw;
                                         #r1rcm {
-                                            width: 15vw;
-                                            height: 12vw;
+                                            width: 18vw;
+                                            height: 16vw;
                                         }
                                     }
                                     .r1rcm_description {
-                                        // margin: 7.5vh 0 0 2.5vw;
-                                        margin: 13vh 0 0 3vw;
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        flex-direction: column;
                                         .main_description_r1rcm {
                                             transition: .9s all ease-in;
-                                            border: none;
-                                            background-color: $portfolios;
-                                            h1 {
+                                            position: absolute;
+                                            .company_name {
                                                 color: white;
-                                                font-size: 5vw;
+                                                font-size: 4vw;
                                                 font-family: 'Inter', sans-serif;
+                                                font-weight: bold;
                                             }
                                             p {
                                                 color: $jobdescription;
-                                                font-size: 1em;
                                                 font-size: 3.5vw;
                                             }
                                         }
@@ -829,6 +833,8 @@ $firstblue: #58a6ff;
                             align-items: center;
                             gap: 5vh;
                             height: 80vh;
+                            margin: 0 0 0 -5vw;
+                            // background-color: #146166;
                             .blog_button {
                                 display: flex;
                                 justify-content: center;
@@ -864,7 +870,7 @@ $firstblue: #58a6ff;
                                     }
                                 }
                                 .tag_one {
-                                    width: 60vw;
+                                    width: 50vw;
                                     height: 25vw;
                                     background-color: $darkblue;
                                     border-radius: 5px;

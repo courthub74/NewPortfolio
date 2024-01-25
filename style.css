@@ -294,8 +294,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4vh 0 0 6vh;
-    gap: 3vw;
+    margin: 4vh 0 0 4.5vh;
+    gap: 1.5vw;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle {
     display: flex;
@@ -536,7 +536,7 @@
     justify-content: center;
     align-items: center;
     width: 77vw;
-    height: 35vw;
+    height: 40vw;
     border-radius: 5px;
     border: none;
     background-color: #36395D;
@@ -546,28 +546,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 6vw 0 0;
-  }
-  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_logo {
-    margin: 0 12vw 0 0;
+    gap: 8vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_logo #courdevelops {
-    width: 18vw;
-    height: 18vw;
+    width: 23vw;
+    height: 23vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description {
-    margin: 8vh 0 0 -7vw;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description .main_description {
     transition: 0.9s all ease-in;
     position: absolute;
   }
-  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description .main_description h1 {
+  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description .main_description .company_name {
     color: white;
-    font-size: 5vw;
+    font-size: 4vw;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description .main_description p {
     color: #00C6C3;
@@ -603,30 +602,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 10vw 0 0;
-    width: 90vw;
-    height: 35vw;
+    gap: 5.5vw;
+    margin-left: -2vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_logo {
     margin: 0vh 0 0 6vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_logo #slea {
-    width: 18vw;
-    height: 18vw;
+    width: 22vw;
+    height: 22vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description {
-    margin: 18vh 0 0 8vw;
-    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea {
     transition: 0.9s all ease-in;
-    border: none;
-    background-color: #36395D;
+    position: absolute;
   }
-  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea h1 {
+  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea .company_name {
     color: white;
-    font-size: 5vw;
+    font-size: 4vw;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea p {
     color: #00C6C3;
@@ -662,31 +662,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 6vw 0 0;
-  }
-  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_logo {
-    margin: 0vh 0 0 6.5vw;
+    gap: 4vw;
+    margin: 0 0vw 0 8vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_logo #r1rcm {
-    width: 15vw;
-    height: 12vw;
+    width: 18vw;
+    height: 16vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description {
-    margin: 13vh 0 0 3vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm {
     transition: 0.9s all ease-in;
-    border: none;
-    background-color: #36395D;
+    position: absolute;
   }
-  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm h1 {
+  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm .company_name {
     color: white;
-    font-size: 5vw;
+    font-size: 4vw;
     font-family: "Inter", sans-serif;
+    font-weight: bold;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm p {
     color: #00C6C3;
-    font-size: 1em;
     font-size: 3.5vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm.dissapear {
@@ -735,6 +735,7 @@
     align-items: center;
     gap: 5vh;
     height: 80vh;
+    margin: 0 0 0 -5vw;
   }
   * body .container #blog_section_id .blog_section_class .blog_circles .blog_button {
     display: flex;
@@ -772,7 +773,7 @@
     font-size: 4vw;
   }
   * body .container #blog_section_id .blog_section_class .blog_circles .blog_button .tag_one {
-    width: 60vw;
+    width: 50vw;
     height: 25vw;
     background-color: #080E2F;
     border-radius: 5px;
