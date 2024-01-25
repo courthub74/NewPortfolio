@@ -141,7 +141,7 @@
     border: 1px solid #36395D;
     border-radius: 5px;
     background-color: #36395D;
-    width: 68vw;
+    width: 63vw;
     height: 2vw;
     padding: 4vw;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
@@ -149,7 +149,7 @@
   * body .container #home_section_id .home_section_class .home_section_content .learn_more a {
     color: white;
     font-family: "Inter", sans-serif;
-    font-size: 5vw;
+    font-size: 4vw;
     text-decoration: none;
   }
   * body .container #about_section_id .about_section_class {
@@ -202,7 +202,7 @@
     justify-content: center;
     align-items: center;
     background-color: #146166;
-    width: 68vw;
+    width: 63vw;
     height: 2vw;
     padding: 4vw 4vh;
     margin: 5vh 0 0 0;
@@ -570,13 +570,13 @@
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description .main_description .company_name {
     color: white;
-    font-size: 4vw;
+    font-size: 4.5vw;
     font-family: "Inter", sans-serif;
     font-weight: bold;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description .main_description p {
     color: #00C6C3;
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description .main_description.dissapear {
     transition: 0.7s all ease-out;
@@ -630,13 +630,13 @@
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea .company_name {
     color: white;
-    font-size: 4vw;
+    font-size: 4.5vw;
     font-family: "Inter", sans-serif;
     font-weight: bold;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea p {
     color: #00C6C3;
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea.dissapear {
     transition: 0.7s all ease-out;
@@ -687,13 +687,13 @@
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm .company_name {
     color: white;
-    font-size: 4vw;
+    font-size: 4.5vw;
     font-family: "Inter", sans-serif;
     font-weight: bold;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm p {
     color: #00C6C3;
-    font-size: 3.5vw;
+    font-size: 4vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm.dissapear {
     transition: 0.7s all ease-out;
