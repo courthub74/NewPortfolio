@@ -293,7 +293,7 @@ $firstblue: #58a6ff;
                             color: white;
                             height: 100%;
                             .portfolio_squares {
-                                margin: -10vh 0vw 0 -5vw;
+                                margin: -10vh 0vw 0 2vw;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
@@ -303,7 +303,7 @@ $firstblue: #58a6ff;
                                     background-color: $portfolios;
                                     box-shadow: 6px 6px 10px black;
                                     border: none;
-                                    width: 75vw;
+                                    width: 84vw;
                                     height: 13vh;
                                     border-radius: 5px;
                                     display: flex;
@@ -343,7 +343,7 @@ $firstblue: #58a6ff;
                         .skills_section_content {
                             color: white;
                             margin: 0 0 0 5vw;
-                            padding: 5vh 0 0 2vw;
+                            padding: 5vh 0 0 4.5vw;
                             width: 70%;
                             .skills_title {
                                 font-family: 'Inter', sans-serif;
@@ -363,7 +363,7 @@ $firstblue: #58a6ff;
                                     justify-content: center;
                                     align-items: center;
                                     margin: 4vh 0 0 4.5vh;
-                                    gap: 1.5vw;
+                                    gap: 3vw;
                                     .skill_circle {
                                         display: flex;
                                         flex-direction: column;
@@ -616,12 +616,12 @@ $firstblue: #58a6ff;
                             justify-content: center;
                             align-items: center;
                             gap: 5vh;
-                            margin: 7vh 3vw 0 0;
+                            margin: 7vh 0vw 0 0;
                             .experience_box {
                                 display: flex;
                                 justify-content: center;
                                 align-items: center;
-                                width: 77vw;
+                                width: 80vw;
                                 height: 40vw;
                                 border-radius: 5px;
                                 border: none;
