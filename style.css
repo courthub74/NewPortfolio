@@ -15,7 +15,7 @@
   * body .container .nav_section .the_navbar {
     background-color: #080E2F;
     top: 0;
-    height: 11vh;
+    height: 12vh;
     z-index: 98;
     width: 100%;
     display: flex;
@@ -266,7 +266,8 @@
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #create_collab {
     margin: 0 0 0 3vw;
-    width: 66vw;
+    width: 56vw;
+    height: 3vh;
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #msy {
     width: 65vw;
@@ -301,7 +302,7 @@
     justify-content: center;
     align-items: center;
     margin: 4vh 0 0 4.5vh;
-    gap: 3vw;
+    gap: 2.5vw;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle {
     display: flex;
