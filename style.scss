@@ -293,18 +293,18 @@ $firstblue: #58a6ff;
                             color: white;
                             height: 100%;
                             .portfolio_squares {
-                                margin: -10vh 0vw 0 2vw;
+                                margin: -7vh 0vw 0 2vw;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: 5vh;
+                                gap: 3vh;
                                 .portfolio_square {
                                     background-color: $portfolios;
                                     box-shadow: 6px 6px 10px black;
                                     border: none;
                                     width: 84vw;
-                                    height: 13vh;
+                                    height: 11.5vh;
                                     border-radius: 5px;
                                     display: flex;
                                     flex-direction: column;
@@ -957,7 +957,7 @@ $firstblue: #58a6ff;
                                         border: none;
                                         box-shadow: 3px 3px 2px $boxshadowcircles;
                                         border-radius: 5px;
-                                        width: 78vw;
+                                        width: 80vw;
                                         height: 12vw;
                                         p {
                                             color: white;
