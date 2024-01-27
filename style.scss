@@ -129,11 +129,29 @@ $firstblue: #58a6ff;
                             color: white;
                             height: 100%;
                             margin: 3vh 0 0 0;
-                            .head_shot {
-                                #headshot {
-                                    width: 50vw;
-                                    height: 50vw;
+                            .back_head_shot {
+                                background-color: $portfolios;
+                                width: 53vw;
+                                height: 53vw;
+                                border-radius: 50%;
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                .head_shot {
+                                    width: 47vw;
+                                    height: 47vw;
+                                    border: 1px solid $darkblue;
                                     border-radius: 50%;
+                                    background-color: $darkblue;
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    #headshot {
+                                        width: 44vw;
+                                        height: 44vw;
+                                        border-radius: 50%;
+                                        // border: 7px solid $darkblue;
+                                    }
                                 }
                             }
                             .name_and_description {
@@ -320,7 +338,7 @@ $firstblue: #58a6ff;
                                         }
                                         #create_collab {
                                             margin: 0 0 0 3vw;
-                                            width: 56vw;
+                                            width: 55vw;
                                             height: 3vh;
                                         }
                                         #msy {
@@ -638,8 +656,8 @@ $firstblue: #58a6ff;
                                     .courdevelops_logo {
                                         // margin: 0 12vw 0 0;
                                         #courdevelops {
-                                            width: 23vw;
-                                            height: 23vw;
+                                            width: 21vw;
+                                            height: 21vw;
                                         }
                                     } 
                                     .courdevelops_description {
@@ -696,13 +714,14 @@ $firstblue: #58a6ff;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
-                                    gap: 5.5vw;
+                                    gap: 6.5vw;
                                     margin-left: -2vw;
                                     .slea_logo {
-                                        margin: 0vh 0 0 6vw;
+                                        margin: 0vh 0 0 5vw;
+                                        // background-color: yellow;
                                         #slea {
-                                            width: 22vw;
-                                            height: 22vw;
+                                            width: 20vw;
+                                            height: 20vw;
                                         }
                                     }
                                     .slea_description {
@@ -762,10 +781,10 @@ $firstblue: #58a6ff;
                                     gap: 4vw;
                                     margin: 0 0vw 0 8vw;
                                     .r1rcm_logo {
-                                        // margin: 0vh 0 0 6.5vw;
+                                        margin: 0vh 0 0 -1.5vw;
                                         #r1rcm {
-                                            width: 18vw;
-                                            height: 16vw;
+                                            width: 17vw;
+                                            height: 14vw;
                                         }
                                     }
                                     .r1rcm_description {
@@ -1115,11 +1134,16 @@ $firstblue: #58a6ff;
                             color: white;
                             height: 100%;
                             margin: 8vh 0 0 0;
-                            .head_shot {
-                                #headshot {
-                                    width: 30vw;
-                                    height: 30vw;
-                                    border-radius: 50%;
+                            .back_head_shot {
+                                background-color: $portfolios;
+                                width: 35vw;
+                                height: 35vw;
+                                .head_shot {
+                                    #headshot {
+                                        width: 30vw;
+                                        height: 30vw;
+                                        border-radius: 50%;
+                                    }
                                 }
                             }
                             .name_and_description {

@@ -88,9 +88,28 @@
     height: 100%;
     margin: 3vh 0 0 0;
   }
-  * body .container #home_section_id .home_section_class .home_section_content .head_shot #headshot {
-    width: 50vw;
-    height: 50vw;
+  * body .container #home_section_id .home_section_class .home_section_content .back_head_shot {
+    background-color: #36395D;
+    width: 53vw;
+    height: 53vw;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .back_head_shot .head_shot {
+    width: 47vw;
+    height: 47vw;
+    border: 1px solid #080E2F;
+    border-radius: 50%;
+    background-color: #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .back_head_shot .head_shot #headshot {
+    width: 44vw;
+    height: 44vw;
     border-radius: 50%;
   }
   * body .container #home_section_id .home_section_class .home_section_content .name_and_description {
@@ -266,7 +285,7 @@
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #create_collab {
     margin: 0 0 0 3vw;
-    width: 56vw;
+    width: 55vw;
     height: 3vh;
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #msy {
@@ -556,8 +575,8 @@
     gap: 8vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_logo #courdevelops {
-    width: 23vw;
-    height: 23vw;
+    width: 21vw;
+    height: 21vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description {
     display: flex;
@@ -609,15 +628,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5.5vw;
+    gap: 6.5vw;
     margin-left: -2vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_logo {
-    margin: 0vh 0 0 6vw;
+    margin: 0vh 0 0 5vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_logo #slea {
-    width: 22vw;
-    height: 22vw;
+    width: 20vw;
+    height: 20vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description {
     display: flex;
@@ -672,9 +691,12 @@
     gap: 4vw;
     margin: 0 0vw 0 8vw;
   }
+  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_logo {
+    margin: 0vh 0 0 -1.5vw;
+  }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_logo #r1rcm {
-    width: 18vw;
-    height: 16vw;
+    width: 17vw;
+    height: 14vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description {
     display: flex;
@@ -995,7 +1017,12 @@
     height: 100%;
     margin: 8vh 0 0 0;
   }
-  * body .container #home_section_id .home_section_class .home_section_content .head_shot #headshot {
+  * body .container #home_section_id .home_section_class .home_section_content .back_head_shot {
+    background-color: #36395D;
+    width: 35vw;
+    height: 35vw;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .back_head_shot .head_shot #headshot {
     width: 30vw;
     height: 30vw;
     border-radius: 50%;
