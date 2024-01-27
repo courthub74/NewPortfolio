@@ -112,14 +112,17 @@
     height: 44vw;
     border-radius: 50%;
   }
-  * body .container #home_section_id .home_section_class .home_section_content .name_and_description {
+  * body .container #home_section_id .home_section_class .home_section_content .home_section_words {
+    margin: -3vh 0 0 0;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_description {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1.5vh;
   }
-  * body .container #home_section_id .home_section_class .home_section_content .name_and_description .home_name {
+  * body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_description .home_name {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -127,7 +130,7 @@
     font-weight: bold;
     font-size: 8vw;
   }
-  * body .container #home_section_id .home_section_class .home_section_content .name_and_description .home_description {
+  * body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_description .home_description {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,7 +147,7 @@
     color: #080E2F;
     color: #00C6C3;
   }
-  * body .container #home_section_id .home_section_class .home_section_content .home_slogan {
+  * body .container #home_section_id .home_section_class .home_section_content .home_section_words .home_slogan {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -152,8 +155,9 @@
     font-family: "Inter", sans-serif;
     font-size: 4vw;
     color: white;
+    margin: 5vh 0 0 0;
   }
-  * body .container #home_section_id .home_section_class .home_section_content .learn_more {
+  * body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,8 +168,9 @@
     height: 2vw;
     padding: 4vw;
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
+    margin: 5vh 0 0 0;
   }
-  * body .container #home_section_id .home_section_class .home_section_content .learn_more a {
+  * body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 4vw;
@@ -972,12 +977,19 @@
     margin: 0 0 1vh 1vw;
   }
   * body .container .nav_section .the_navbar .you #job_description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
+    color: #00C6C3;
     font-family: "Inter", sans-serif;
-    border: 1px solid white;
+    border: 1px solid #36395D;
+    background-color: #36395D;
     border-radius: 5px;
     font-size: 2vw;
-    padding: 0.8vh;
+    padding: 2vh 1vw;
+    width: 22vw;
+    margin: 0 0 0 1vw;
   }
   * body .container .nav_section .the_navbar .you.appear {
     opacity: 1;
@@ -1003,29 +1015,37 @@
     opacity: 0;
   }
   * body .container #home_section_id .home_section_class {
-    height: 200vh;
+    height: 150vh;
     background-color: #080E2F;
   }
   * body .container #home_section_id .home_section_class .home_section_content {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 8vh;
+    gap: 15vh;
     font-family: "Inter", sans-serif;
     color: white;
     height: 100%;
-    margin: 8vh 0 0 0;
+    margin: -15vh 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content .back_head_shot {
     background-color: #36395D;
-    width: 35vw;
-    height: 35vw;
-  }
-  * body .container #home_section_id .home_section_class .home_section_content .back_head_shot .head_shot #headshot {
     width: 30vw;
     height: 30vw;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .back_head_shot .head_shot #headshot {
+    width: 25vw;
+    height: 25vw;
+    border-radius: 50%;
+    border: 7px solid #080E2F;
+    background-color: #080E2F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   * body .container #home_section_id .home_section_class .home_section_content .name_and_description {
     display: flex;
@@ -1040,7 +1060,7 @@
     align-items: center;
     font-family: "Inter", sans-serif;
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 4vw;
   }
   * body .container #home_section_id .home_section_class .home_section_content .name_and_description .home_description {
     display: flex;
@@ -1049,13 +1069,16 @@
     font-family: "Inter", sans-serif;
     font-size: 5vw;
     border: 1px solid white;
+    border: 1px solid #36395D;
     border-radius: 5px;
     background-color: white;
-    width: 40vw;
+    background-color: #36395D;
+    width: 30vw;
     padding: 1.5vw;
-    font-size: 3vw;
+    font-size: 2vw;
     color: #080E2F;
     margin: 0 0 0 0;
+    color: #00C6C3;
   }
   * body .container #home_section_id .home_section_class .home_section_content .home_slogan {
     display: flex;
@@ -1063,9 +1086,9 @@
     justify-content: center;
     align-items: center;
     font-family: "Inter", sans-serif;
-    font-size: 2.5vw;
+    font-size: 2vw;
     color: white;
-    margin: 2vh 0 0 0;
+    margin: 4vh 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content .learn_more {
     display: flex;
@@ -1074,15 +1097,15 @@
     border: 1px solid #36395D;
     border-radius: 5px;
     background-color: #36395D;
-    width: 40vw;
-    padding: 2vw;
-    margin: 2vh 0 0 0;
+    width: 35vw;
+    padding: 1vw;
+    margin: 6vh 0 0 0;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body .container #home_section_id .home_section_class .home_section_content .learn_more a {
     color: white;
     font-family: "Inter", sans-serif;
     font-size: 2vw;
-    font-weight: bold;
     text-decoration: none;
   }
   * body .container #about_section_id .about_section_class {
@@ -1153,7 +1176,7 @@
   * body .container #portfolio_section_id .portfolio_section_class {
     display: flex;
     flex-direction: column;
-    height: 170vh;
+    height: 200vh;
     background-color: #080E2F;
   }
   * body .container #portfolio_section_id .portfolio_section_class .section_title {
@@ -1178,7 +1201,7 @@
     justify-content: center;
     align-items: center;
     gap: 10vh;
-    margin: -15vh 5vw 0 0vw;
+    margin: 2vh 5vw 0 0vw;
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square {
     background-color: #36395D;
@@ -1497,7 +1520,7 @@
     margin: -6vh 6vw 0 0;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_logo {
-    margin: -18vh 0 0 7vw;
+    margin: -10vh 0 0 7vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_logo #courdevelops {
     width: 10vw;
@@ -1512,7 +1535,7 @@
     transition: 0.9s all ease-in;
     position: absolute;
   }
-  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description .main_description h1 {
+  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description .main_description .company_name {
     color: white;
     font-size: 2.5vw;
     font-family: "Inter", sans-serif;
@@ -1557,7 +1580,7 @@
     height: 35vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_logo {
-    margin: -41vh 0 0 7vw;
+    margin: -41vh 0 0 6.5vw;
     z-index: 1;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_logo #slea {
@@ -1573,9 +1596,9 @@
     border: none;
     background-color: #36395D;
   }
-  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea h1 {
+  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea .company_name {
     color: white;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: "Inter", sans-serif;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea p {
@@ -1618,7 +1641,7 @@
     height: 35vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_logo {
-    margin: -42vh 0 0 -1vw;
+    margin: -42vh 0 0 -2vw;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_logo #r1rcm {
     width: 9vw;
@@ -1632,9 +1655,9 @@
     border: none;
     background-color: #36395D;
   }
-  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm h1 {
+  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm .company_name {
     color: white;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-family: "Inter", sans-serif;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm p {
@@ -1744,7 +1767,7 @@
   * body .container #contact_section_id .contact_section_class {
     display: flex;
     flex-direction: column;
-    height: 240vh;
+    height: 255vh;
     background-color: #080E2F;
   }
   * body .container #contact_section_id .contact_section_class .section_title {
@@ -1811,35 +1834,44 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 3vw;
+    gap: 18vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby small .tabletsocials #github {
-    width: 14vw;
-    height: 14vw;
+    width: 7vw;
+    height: 7vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby small .tabletsocials #linkedin {
-    width: 12vw;
-    height: 12vw;
+    width: 7vw;
+    height: 8vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby small .tabletsocials #twitter {
-    width: 15vw;
-    height: 15vw;
+    width: 5vw;
+    height: 5vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby small .tabletsocials #instagram {
-    width: 12vw;
-    height: 12vw;
+    width: 6vw;
+    height: 6.5vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby .copyrights {
     display: flex;
-    margin: 4vh 0 0 0;
+    justify-content: center;
+    gap: 3vw;
+    margin: 15vh 0 0 0;
+  }
+  * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby .copyrights #copyright_courdevs {
+    margin: -5.5vh 0 0 0;
+    width: 8vw;
+    height: 8vw;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby .copyrights p {
     color: #36395D;
     font-size: 1.2em;
+    font-size: 3vw;
     font-family: "Inter", sans-serif;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby .copyrights .courdev {
     color: #58a6ff;
     font-family: "Inter", sans-serif;
+    margin: 0 0 0 0;
   }
 }/*# sourceMappingURL=style.css.map */
