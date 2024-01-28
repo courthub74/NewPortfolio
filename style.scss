@@ -1427,7 +1427,7 @@ $firstblue: #58a6ff;
                                     display: flex;
                                     justify-content: center;
                                     align-items: center;
-                                    margin: 2vh 0 0 5vh;
+                                    margin: 2vh 0 0 2.5vh;
                                     gap: 1vw;
                                     .skill_circle {
                                         display: flex;
@@ -1721,7 +1721,7 @@ $firstblue: #58a6ff;
                                             p {
                                                 color: $jobdescription;
                                                 font-size: 2vw;
-                                                // font-weight: bold;
+                                                font-weight: bold;
                                             }
                                         }
                                         .main_description.dissapear {
@@ -1786,7 +1786,7 @@ $firstblue: #58a6ff;
                                             p {
                                                 color: $jobdescription;
                                                 font-size: 2vw;
-                                                // font-weight: bold;
+                                                font-weight: bold;
                                             }
                                         }
                                         .main_description_slea.dissapear {
@@ -1849,8 +1849,8 @@ $firstblue: #58a6ff;
                                             }
                                             p {
                                                 color: $jobdescription;
-                                                font-size: 1em;
                                                 font-size: 2vw;
+                                                font-weight: bold;
                                             }
                                         }
                                         .main_description_r1rcm.dissapear {

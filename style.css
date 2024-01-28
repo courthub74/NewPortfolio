@@ -1251,7 +1251,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 2vh 0 0 5vh;
+    margin: 2vh 0 0 2.5vh;
     gap: 1vw;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle {
@@ -1527,6 +1527,7 @@
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description .main_description p {
     color: #00C6C3;
     font-size: 2vw;
+    font-weight: bold;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description .main_description.dissapear {
     transition: 0.7s all ease-out;
@@ -1588,6 +1589,7 @@
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea p {
     color: #00C6C3;
     font-size: 2vw;
+    font-weight: bold;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .slea_content .slea_description .main_description_slea.dissapear {
     transition: 0.7s all ease-out;
@@ -1646,8 +1648,8 @@
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm p {
     color: #00C6C3;
-    font-size: 1em;
     font-size: 2vw;
+    font-weight: bold;
   }
   * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .r1rcm_content .r1rcm_description .main_description_r1rcm.dissapear {
     transition: 0.7s all ease-out;
