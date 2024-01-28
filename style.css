@@ -179,7 +179,7 @@
   * body .container #about_section_id .about_section_class {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 120vh;
     background-color: #00313E;
   }
   * body .container #about_section_id .about_section_class .section_title {
@@ -1095,7 +1095,7 @@
   * body .container #about_section_id .about_section_class {
     display: flex;
     flex-direction: column;
-    height: 320vh;
+    height: 200vh;
     background-color: #00313E;
   }
   * body .container #about_section_id .about_section_class .section_title {
