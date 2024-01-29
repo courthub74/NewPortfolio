@@ -250,42 +250,37 @@ $firstblue: #58a6ff;
                             width: 80%;
                             margin: 5vh 0 0 10vw;
                             // text-align: center;
-                            // .first_para_about {
-                            //     // .brand_name {
-                            //     //     display: flex;
-                            //     //     width: 100%;
-                            //     //     text-align: left;
-                            //     //     // margin: 0 0 0 -15vw;
-                            //     //     #about_page_logo {
-                            //     //         width: 25vw;
-                            //     //         height: 25vw;
-                            //     //     }
-                            //     // }
-                            // }
+                            .about_tasks {
+                                // background-color: #00C6C3;
+                                width: 100%;
+                                display: flex;
+                                flex-direction: column;
+                                gap: 2vh;
+                            }
                             #about_page_logo {
-                                width: 22vw;
-                                height: 22vw;
+                                width: 25vw;
+                                height: 25vw;
                                 margin: 0 0 -3vh 0;
                             }
                             // .brand_name_about {
                             //     width: 100%;
                             // }
-                            // .passion_block {
-                            //     text-align: center;
-                            //     width: 90%;
-                            //     border: 3px solid $skillsteal;
-                            //     border-radius: 5px;
-                            //     // background-color: $skillsteal;
-                            //     // background-color: $darkblue;
-                            //     padding: 1vh 3vw;
-                            //     font-weight: bold;
-                            // }
-                            // .passion_things {
-                            //     display: flex;
-                            //     flex-direction: column;
-                            //     gap: 2vh;
-                            //     margin: 2vh 0 0 0;
-                            // }
+                            .passion_block {
+                                text-align: center;
+                                width: 90%;
+                                border: 3px solid $skillsteal;
+                                border-radius: 5px;
+                                // background-color: $skillsteal;
+                                // background-color: $darkblue;
+                                padding: 1vh 3vw;
+                                font-weight: bold;
+                            }
+                            .passion_things {
+                                display: flex;
+                                flex-direction: column;
+                                gap: 2vh;
+                                margin: 2vh 0 0 0;
+                            }
                             .resume_button_div {
                                 display: flex;
                                 justify-content: center;
@@ -689,13 +684,13 @@ $firstblue: #58a6ff;
                                             position: absolute;
                                             .company_name {
                                                 color: white;
-                                                font-size: 4.5vw;
+                                                font-size: 4vw;
                                                 font-family: 'Inter', sans-serif;
-                                                font-weight: bold;
+                                                // font-weight: bold;
                                             }
                                             p {
                                                 color: $jobdescription;
-                                                font-size: 4vw;
+                                                font-size: 3.5vw;
                                             }
                                         }
                                         .main_description.dissapear {
@@ -753,13 +748,13 @@ $firstblue: #58a6ff;
                                                 // background-color: $portfolios;
                                             .company_name {
                                                 color: white;
-                                                font-size: 4.5vw;
+                                                font-size: 4vw;
                                                 font-family: 'Inter', sans-serif;
-                                                font-weight: bold;
+                                                // font-weight: bold;
                                             }
                                             p {
                                                 color: $jobdescription;
-                                                font-size: 4vw;
+                                                font-size: 3.5vw;
                                             }
                                         }
                                         .main_description_slea.dissapear {
@@ -815,13 +810,13 @@ $firstblue: #58a6ff;
                                             position: absolute;
                                             .company_name {
                                                 color: white;
-                                                font-size: 4.5vw;
+                                                font-size: 4vw;
                                                 font-family: 'Inter', sans-serif;
-                                                font-weight: bold;
+                                                // font-weight: bold;
                                             }
                                             p {
                                                 color: $jobdescription;
-                                                font-size: 4vw;
+                                                font-size: 3.5vw;
                                             }
                                         }
                                         .main_description_r1rcm.dissapear {
@@ -979,7 +974,7 @@ $firstblue: #58a6ff;
                                     }
                                     textarea {
                                         background-color: $portfolios;
-                                        height: 20vh;
+                                        height: 30vh;
                                         width: 78vw;
                                         border: none;
                                         border-radius: 5px;
@@ -1717,11 +1712,12 @@ $firstblue: #58a6ff;
                                                 color: white;
                                                 font-size: 2.5vw;
                                                 font-family: 'Inter', sans-serif;
+                                                // font-weight: bold;
                                             }
                                             p {
                                                 color: $jobdescription;
                                                 font-size: 2vw;
-                                                font-weight: bold;
+                                                // font-weight: bold;
                                             }
                                         }
                                         .main_description.dissapear {
@@ -1782,11 +1778,12 @@ $firstblue: #58a6ff;
                                                 color: white;
                                                 font-size: 2.5vw;
                                                 font-family: 'Inter', sans-serif;
+                                                // font-weight: bold;
                                             }
                                             p {
                                                 color: $jobdescription;
                                                 font-size: 2vw;
-                                                font-weight: bold;
+                                                // font-weight: bold;
                                             }
                                         }
                                         .main_description_slea.dissapear {
@@ -1837,7 +1834,7 @@ $firstblue: #58a6ff;
                                     }
                                     .r1rcm_description {
                                         // margin: 7.5vh 0 0 2.5vw;
-                                        margin: 13vh 0 0 6.5vw;
+                                        margin: 9vh 0 0 6.5vw;
                                         .main_description_r1rcm {
                                             transition: .9s all ease-in;
                                             border: none;
@@ -1846,11 +1843,12 @@ $firstblue: #58a6ff;
                                                 color: white;
                                                 font-size: 2.5vw;
                                                 font-family: 'Inter', sans-serif;
+                                                // font-weight: bold;
                                             }
                                             p {
                                                 color: $jobdescription;
                                                 font-size: 2vw;
-                                                font-weight: bold;
+                                                // font-weight: bold;
                                             }
                                         }
                                         .main_description_r1rcm.dissapear {
@@ -2005,7 +2003,7 @@ $firstblue: #58a6ff;
                                     }
                                     textarea {
                                         background-color: $portfolios;
-                                        height: 55vh;
+                                        height: 65vh;
                                         width: 78vw;
                                         border: none;
                                         border-radius: 5px;
@@ -2026,6 +2024,7 @@ $firstblue: #58a6ff;
                                         p {
                                             color: white;
                                             font-size: 1.5em;
+                                            font-size: 2vw;
                                         }
                                     }
                                 }
