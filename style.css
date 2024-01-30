@@ -1877,4 +1877,56 @@
     font-family: "Inter", sans-serif;
     margin: 0 0 0 0;
   }
+}
+@media only screen and (min-width: 768px) and (orientation: portrait) {
+  * body .container .nav_section .the_navbar .hamburgermobile #top_hamburger {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .back_head_shot {
+    width: 45vw;
+    height: 45vw;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .back_head_shot .head_shot {
+    width: 41vw;
+    height: 41vw;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .back_head_shot .head_shot #headshot {
+    width: 38vw;
+    height: 38vw;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_description .home_name {
+    font-size: 6vw;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .home_section_words .name_and_description .home_description {
+    font-size: 3.5vw;
+    width: 50vw;
+    height: 2vw;
+    border-radius: 10px;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .home_section_words .home_slogan {
+    font-size: 3vw;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more {
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.521);
+    border-radius: 10px;
+    width: 55vw;
+    height: 2vw;
+  }
+  * body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
+    font-size: 3vw;
+  }
+  * body .container #about_section_id .about_section_class {
+    height: 100vh;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .first_para_about {
+    font-size: 3vw;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content #about_page_logo {
+    width: 25vw;
+    height: 25vw;
+  }
+  * body .container #about_section_id .about_section_class .about_section_content .resume_button_div a {
+    font-size: 3vw;
+  }
 }/*# sourceMappingURL=style.css.map */
