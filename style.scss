@@ -229,7 +229,7 @@ $firstblue: #58a6ff;
                     .about_section_class {
                         display: flex;
                         flex-direction: column;
-                        height: 120vh;
+                        height: 100vh;
                         background-color: $nextgreen;
                         .section_title {
                             margin: 5vh 0 0 10vw;
@@ -258,9 +258,10 @@ $firstblue: #58a6ff;
                                 gap: 2vh;
                             }
                             #about_page_logo {
-                                width: 25vw;
-                                height: 25vw;
-                                margin: 0 0 -3vh 0;
+                                width: 35vw;
+                                height: 35vw;
+                                // margin: 0 0 -3vh 0;
+                                margin: 1vh 0 0 0;
                             }
                             // .brand_name_about {
                             //     width: 100%;
@@ -289,7 +290,7 @@ $firstblue: #58a6ff;
                                 width: 63vw;
                                 height: 2vw;
                                 padding: 4vw 4vh;
-                                margin: 0vh 0 0 0;
+                                margin: 2vh 0 0 0;
                                 border-radius: 5px;
                                 box-shadow: 2px 2px 2px 2px $boxshadowcircles;
                                 a {
@@ -351,14 +352,16 @@ $firstblue: #58a6ff;
                                         }
                                         #create_collab {
                                             margin: 0 0 0 3vw;
-                                            width: 55vw;
+                                            width: 50vw;
                                             height: 3vh;
                                         }
                                         #msy {
                                             width: 65vw;
+                                            height: 9vh;
                                         }
                                         #workflow_app {
-                                            width: 64vw;
+                                            width: 56vw;
+                                            height: 6vh;
                                         }
                                     }
                                 }
