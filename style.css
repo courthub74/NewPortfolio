@@ -167,7 +167,6 @@
     width: 63vw;
     height: 2vw;
     padding: 4vw;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
     margin: 5vh 0 0 0;
   }
   * body .container #home_section_id .home_section_class .home_section_content .home_section_words .learn_more a {
@@ -235,7 +234,6 @@
     padding: 4vw 4vh;
     margin: 2vh 0 0 0;
     border-radius: 5px;
-    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
   }
   * body .container #about_section_id .about_section_class .about_section_content .resume_button_div a {
     color: white;
