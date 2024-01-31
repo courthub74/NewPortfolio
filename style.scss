@@ -2098,8 +2098,18 @@ $firstblue: #58a6ff;
             .container {
                 .nav_section {
                     .the_navbar {
+                        // you stuff
+                        .you {
+                            #name {
+                                font-size: 4vw;
+                            }
+                            #job_description {
+                                font-size: 3vw;
+                            }
+                        }
                         // the hamburger
                         .hamburgermobile {
+                            margin: 0 0 0 8vw;
                             // background-color: yellow;
                             #top_hamburger {
                                 width: 10vw;
@@ -2127,25 +2137,26 @@ $firstblue: #58a6ff;
                             .home_section_words {
                                 .name_and_description {
                                     .home_name {
-                                        font-size: 6vw;
+                                        font-size: 6.5vw;
                                     }
                                     .home_description {
-                                        font-size: 3.5vw;
+                                        font-size: 4vw;
                                         width: 50vw;
                                         height: 2vw;
                                         border-radius: 10px;
                                     }
                                 }
                                 .home_slogan {
-                                    font-size: 3vw;
+                                    font-size: 3.5vw;
                                 }
                                 .learn_more {
-                                    box-shadow: 2px 2px 2px 4px $boxshadowcircles;
+                                    // box-shadow: 2px 2px 2px 2px $boxshadowcircles;
                                     border-radius: 10px;
-                                    width: 55vw;
+                                    width: 68vw;
                                     height: 2vw;
+                                    box-shadow: none;
                                     a {
-                                        font-size: 3vw;
+                                        font-size: 3.5vw;
                                     }
                                 }
                             }
@@ -2155,22 +2166,342 @@ $firstblue: #58a6ff;
                 // ABOUT SECTION (PORTRAIT)
                 #about_section_id {
                     .about_section_class {
-                        height: 100vh;
+                        height: 125vh;
                         .section_title {
-                            
+                            font-size: 8vw;
                         }
                         .about_section_content {
                             // background-color: yellow;
                             .first_para_about {
-                                font-size: 3vw;
+                                font-size: 4vw;
+                                margin: 3vh 0 3vh 0;
                             }
                             #about_page_logo {
-                                width: 25vw;
-                                height: 25vw;
+                                width: 22vw;
+                                height: 22vw;
+                                margin: 3vh 0 3vh 0;
                             }
                             .resume_button_div {
+                                // box-shadow: 2px 2px 2px 4px $boxshadowcircles;
+                                border-radius: 10px;
+                                width: 68vw;
+                                height: 2vw;
+                                box-shadow: none;
+                                margin: 3vh 0 0 0;
                                 a {
                                     font-size: 3vw;
+                                }
+                            }
+                        }
+                    }
+                }
+                // PORTFOLIO SECTION (PORTRAIT)
+                #portfolio_section_id {
+                    .portfolio_section_class {
+                        height: 105vh;
+                        .section_title {
+                            font-size: 8vw;
+                        }
+                        .portfolio_section_content {
+                            .portfolio_squares {
+                                margin: -10vh 1vh 0 0;
+                                .portfolio_square {
+                                    border-radius: 5px;
+                                    width: 78vw;
+                                    height: 18vw;
+                                    .app {
+                                        #skill_project {
+                                            width: 50vw;
+                                            margin: 0 1vw 0 0;
+                                        }
+                                        #create_collab {
+                                            margin: 0 0 0 3vw;
+                                            width: 38vw;
+                                            height: 4vh;
+                                        }
+                                        #msy {
+                                            width: 42vw;
+                                            height: 10vh;
+                                        }
+                                        #workflow_app {
+                                            width: 40vw;
+                                            height: 7vh;
+                                        }
+                                        #mps_site {
+                                            width: 20vw;
+                                            height: 5vh;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // SKILLS SECTION (PORTRAIT)
+                #skills_section_id {
+                    .skills_section_class {
+                        height: 120vh;
+                        .skills_title {
+                            font-size: 8vw;
+                        }
+                        .skills_circles_section {
+                           .skills_one_landscape {
+                              .skills_circles_one {
+                                 .skill_circle {
+                                    .skill_back {
+                                        width: 23vw;
+                                        height: 23vw;
+                                        .skill_front {
+                                            width: 21vw;
+                                            height: 21vw;
+                                            .shield {
+                                                width: 10vw;
+                                                height: 10vw;
+                                            }
+                                            #sass {
+                                                width: 10.5vw;
+                                                height: 10.5vw;
+                                            }
+                                            #javascript {
+                                                width: 12.5vw;
+                                                height: 12.5vw;
+                                            }
+                                            #python {
+                                                width: 9.5vw;
+                                                height: 9.5vw;
+                                            }
+                                            #react {
+                                                width: 11vw;
+                                                height: 11vw;
+                                            }
+                                        }
+                                    }
+                                 }
+                              }
+                           }
+                           .skills_two_landscape {
+                            .skills_circles_one {
+                                .skill_circle {
+                                    .skill_back {
+                                        width: 23vw;
+                                        height: 23vw;
+                                        .skill_front {
+                                            width: 21vw;
+                                            height: 21vw;
+                                            #figma {
+                                                width: 12vw;
+                                                height: 10vw;
+                                            }
+                                            #firebase {
+                                                width: 7.5vw;
+                                                height: 9vw;
+                                            }
+                                            #mongo {
+                                                width: 5vw;
+                                                height: 10vw;
+                                            }
+                                            #django {
+                                                width: 10vw;
+                                                height: 9vw;
+                                            }
+                                            #aws {
+                                                width: 11vw;
+                                                height: 11vw;
+                                            }
+                                            #heroku {
+                                                width: 11vw;
+                                                height: 11vw;
+                                            }
+                                        }
+                                    }
+                                }
+                              }
+                           }
+                        }
+                    }
+                }
+                // EXPERIENCE SECTION (PORTRAIT)
+                #experience_section_id {
+                    .experience_section_class {
+                        .section_title {
+                            font-size: 8vw;
+                        }
+                        .experience_section_squares {
+                            .experience_box {
+                                width: 78vw;
+                                height: 30vw;
+                                // COURDEVELOPS (PORTRAIT)
+                                .courdevs_content {
+                                    .courdevelops_logo {
+                                        #courdevelops {
+                                            width: 18vw;
+                                            height: 18vw;
+                                        }
+                                    }
+                                    .courdevelops_description {
+                                        .main_description {
+                                            .company_name {
+                                                font-size: 3.5vw;
+                                            }
+                                            p {
+                                                font-size: 3vw;
+                                            }
+                                        }
+                                    }
+                                }
+                                // SLEA (PORTRAIT)
+                                .slea_content {
+                                    .slea_logo {
+                                        #slea {
+                                            width: 16vw;
+                                            height: 16vw;
+                                        }
+                                    }
+                                    .slea_description {
+                                        .main_description_slea {
+                                            .company_name {
+                                                font-size: 3.5vw;
+                                            }
+                                            p {
+                                                font-size: 3vw;
+                                            }
+                                        }
+                                    }
+                                }
+                                // R1RCM (PORTRAIT)
+                                .r1rcm_content {
+                                    .r1rcm_logo {
+                                        #r1rcm {
+                                            width: 15vw;
+                                            height: 12vw;
+                                        }
+                                    }
+                                    .r1rcm_description {
+                                        .main_description_r1rcm {
+                                            .company_name {
+                                                font-size: 3.5vw;
+                                            }
+                                            p {
+                                                font-size: 3vw;
+                                            }
+                                        } 
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // BLOG SECTION (PORTRAIT)
+                #blog_section_id {
+                    .blog_section_class {
+                        .section_title {
+                            font-size: 8vw;
+                        }
+                        .blog_circles {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 5vh;
+                            margin-top: 2.5vh;
+                            .blog_button {
+                                width: 80vw;
+                                height: 30vw;
+                                .blog_circle {
+                                    z-index: 1;
+                                    .back_blog {
+                                        width: 32vw;
+                                        height: 32vw;
+                                        .front_blog {
+                                            width: 27vw;
+                                            height: 27vw;
+                                            font-size: 3vw;
+                                        }
+                                    }
+                                }
+                                .tag_one {
+                                    width: 58vw;
+                                    height: 20vw;
+                                    p {
+                                        font-size: 3vw;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // CONTACT SECTION (PORTRAIT)
+                #contact_section_id {
+                    .contact_section_class {
+                        height: 110vh;
+                        .section_title {
+                            font-size: 8vw;
+                        }
+                        .contact_section_form {
+                            form {
+                                .input_div {
+                                    label {
+                                        font-size: 4vw;
+                                    }
+                                    input {
+                                        width: 76vw;
+                                        height: 8vw;
+                                    }
+                                    textarea {
+                                        width: 76vw;
+                                        height: 30vh;
+                                    }
+                                }
+                                .submit_button {
+                                    #submitemail {
+                                        width: 76vw;
+                                        height: 8vw;
+                                        p {
+                                            font-size: 3vw;
+                                        }
+                                    } 
+                                }
+                                // FOOTER (PORTRAIT)
+                                .poweredby {
+                                    small {
+                                        .tabletsocials {
+                                            margin: 1vh 0 0 0;
+                                            display: flex;
+                                            justify-content: center;
+                                            align-items: center;
+                                            gap: 17vw;
+                                            #github {
+                                                width: 6vw;
+                                                height: 6vw;
+                                            }
+                                            #linkedin {
+                                                width: 6vw;
+                                                height: 7vw;
+                                            }
+                                            #twitter {
+                                                width: 5vw;
+                                                height: 5vw;
+                                            }
+                                            #instagram {
+                                                width: 6vw;
+                                                height: 6.5vw;
+                                            }
+                                        }
+                                    }
+                                    .copyrights {
+                                        margin: 7vh 0 0 0;
+                                        #copyright_coudevs {
+                                            width: 7vw;
+                                            height: 7vw;
+                                        }
+                                        p {
+                                            margin: .8vh 0 0 0;
+                                            font-size: 3vw;
+                                        }
+                                        .courdev {
+                                            font-size: 3vw;
+                                        }
+                                    }
                                 }
                             }
                         }
