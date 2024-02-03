@@ -303,7 +303,7 @@ $firstblue: #58a6ff;
                     }
                 }
                 // PORTFOLIO SECTION (PORTRAIT)
-                #portfolio_section_id {
+                C {
                     .portfolio_section_class {
                         display: flex;
                         flex-direction: column;
@@ -2606,20 +2606,64 @@ $firstblue: #58a6ff;
                 // ABOUT SECTION (LANDSCAPE)
                 #about_section_id {
                     .about_section_class {
-                        height: 130vh;
+                        height: 110vh;
                         .section_title {
                             font-size: 5vw;
                         }
                         .about_section_content {
+                            #about_page_logo {
+                                width: 15vw;
+                                height: 15vw;
+                                // margin: 0 0 -3vh 0;
+                                margin: 1vh 0 0 0;
+                            }
                             .resume_button_div {
                                 width: 72vw;
                                 height: 2vh;
-                                margin: 8vh 5vw 0 0;
+                                margin: 4vh 5vw 0 0;
                                 a {
                                     font-weight: normal;
                                 }
                             }
                         }
+                    }
+                }
+                // PORTFOLIO SECTION (LANDSCAPE)
+                #portfolio_section_id {
+                    .portfolio_section_class {
+                        height: 150vh;
+                        .section_title {
+                            font-size: 5vw;
+                        }
+                        .portfolio_section_content {
+                            .portfolio_squares {
+                                margin: -15vh 0 0 0;
+                                gap: 6vh;
+                                .portfolio_square {
+                                    width: 79vw;
+                                    height: 22vh;
+                                    .app {
+                                        #create_collab {
+                                            width: 27vw;
+                                            height: 4.5vh;
+                                        }
+                                        #mps_site {
+                                            width: 13vw;
+                                        }
+                                        #msy {
+                                            margin: 0 4vw 0 0;
+                                            height: 13vh;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                // SKILLS SECTION (LANDSCAPE)
+                #skills_section_id {
+                    .skills_section_class {
+                        height: 100vh;
                     }
                 }
             }

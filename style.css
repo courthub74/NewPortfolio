@@ -239,20 +239,20 @@
     color: white;
     text-decoration: none;
   }
-  * body .container #portfolio_section_id .portfolio_section_class {
+  * body .container C .portfolio_section_class {
     display: flex;
     flex-direction: column;
     height: 100vh;
     background-color: #080E2F;
   }
-  * body .container #portfolio_section_id .portfolio_section_class .section_title {
+  * body .container C .portfolio_section_class .section_title {
     margin: 5vh 0 0 10vw;
     font-family: "Inter", sans-serif;
     font-size: 10vw;
     font-weight: bold;
     color: white;
   }
-  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content {
+  * body .container C .portfolio_section_class .portfolio_section_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -261,7 +261,7 @@
     color: white;
     height: 100%;
   }
-  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares {
+  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares {
     margin: -7vh 0vw 0 2vw;
     display: flex;
     flex-direction: column;
@@ -269,7 +269,7 @@
     align-items: center;
     gap: 3vh;
   }
-  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square {
+  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square {
     background-color: #36395D;
     box-shadow: 6px 6px 10px black;
     border: none;
@@ -281,25 +281,25 @@
     justify-content: center;
     align-items: center;
   }
-  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app {
+  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #skill_project {
+  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #skill_project {
     width: 65vw;
     margin: 0 1vw 0 0;
   }
-  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #create_collab {
+  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #create_collab {
     margin: 0 0 0 3vw;
     width: 50vw;
     height: 3vh;
   }
-  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #msy {
+  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #msy {
     width: 65vw;
     height: 9vh;
   }
-  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #workflow_app {
+  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #workflow_app {
     width: 56vw;
     height: 6vh;
   }
@@ -2253,17 +2253,50 @@
     font-size: 2vw;
   }
   * body .container #about_section_id .about_section_class {
-    height: 130vh;
+    height: 110vh;
   }
   * body .container #about_section_id .about_section_class .section_title {
     font-size: 5vw;
   }
+  * body .container #about_section_id .about_section_class .about_section_content #about_page_logo {
+    width: 15vw;
+    height: 15vw;
+    margin: 1vh 0 0 0;
+  }
   * body .container #about_section_id .about_section_class .about_section_content .resume_button_div {
     width: 72vw;
     height: 2vh;
-    margin: 8vh 5vw 0 0;
+    margin: 4vh 5vw 0 0;
   }
   * body .container #about_section_id .about_section_class .about_section_content .resume_button_div a {
     font-weight: normal;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class {
+    height: 150vh;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .section_title {
+    font-size: 5vw;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares {
+    margin: -15vh 0 0 0;
+    gap: 6vh;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square {
+    width: 79vw;
+    height: 22vh;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #create_collab {
+    width: 27vw;
+    height: 4.5vh;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #mps_site {
+    width: 13vw;
+  }
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #msy {
+    margin: 0 4vw 0 0;
+    height: 13vh;
+  }
+  * body .container #skills_section_id .skills_section_class {
+    height: 100vh;
   }
 }/*# sourceMappingURL=style.css.map */
