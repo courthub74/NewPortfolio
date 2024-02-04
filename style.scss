@@ -2198,14 +2198,26 @@ $firstblue: #58a6ff;
                 // PORTFOLIO SECTION (PORTRAIT)
                 #portfolio_section_id {
                     .portfolio_section_class {
-                        height: 105vh;
+                        height: 100vh;
                         .section_title {
+                            margin: 5vh 0 0 10vw;
+                            font-family: 'Inter', sans-serif;
                             font-size: 8vw;
+                            font-weight: bold;
+                            color: white;
                         }
                         .portfolio_section_content {
                             .portfolio_squares {
-                                margin: -10vh 1vh 0 0;
+                                margin: 7vh 1vh 0 0;
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                gap: 5vh;
                                 .portfolio_square {
+                                    background-color: $portfolios;
+                                    box-shadow: 6px 6px 10px black;
+                                    border: none;
                                     border-radius: 5px;
                                     width: 78vw;
                                     height: 18vw;
@@ -2642,6 +2654,7 @@ $firstblue: #58a6ff;
                                 .portfolio_square {
                                     width: 79vw;
                                     height: 22vh;
+                                    box-shadow: 6px 6px 10px black;
                                     .app {
                                         #create_collab {
                                             width: 27vw;
@@ -2663,9 +2676,232 @@ $firstblue: #58a6ff;
                 // SKILLS SECTION (LANDSCAPE)
                 #skills_section_id {
                     .skills_section_class {
-                        height: 100vh;
+                        height: 80vh;
+                        .skills_section_content {
+                            .skills_title {
+                                font-size: 6vw;
+                            }
+                            .skills_circles_section {
+                                display: flex;
+                                flex-direction: column;
+                                justify-content: center;
+                                align-items: center;
+                                margin: 0vh 0 0 0;
+                                .skills_circles_one {
+                                    display: flex;
+                                    // flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    .skill_circle {
+                                        .skill_back {
+                                            .skill_front {
+                                                .shield {
+                                                    height: 6vw;
+                                                    width: 6vw;
+                                                }
+                                                // HTML
+                                                #html {
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                }
+                                                #html.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #html_description {
+                                                    opacity: 0;
+                                                }
+                                                #html_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // CSS
+                                                #css {
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                }
+                                                #css.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #css_description {
+                                                    opacity: 0;
+                                                }
+                                                #css_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // SASS
+                                                #sass {
+                                                    width: 5.5vw;
+                                                    height: 5.5vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: -.5vh 0 0 .5vw;
+                                                }
+                                                #sass.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #sass_description {
+                                                    opacity: 0;
+                                                }
+                                                #sass_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                 // JS
+                                                 #javascript {
+                                                    width: 7vw;
+                                                    height: 7vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: 0 0 0 0vw;
+                                                }
+                                                #javascript.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #javascript_description {
+                                                    opacity: 0;
+                                                }
+                                                #javascript_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // PYTHON
+                                                #python {
+                                                    width: 5.5vw;
+                                                    height: 5.5vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: 0vh 0 0 0;
+                                                }
+                                                #python.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #python_description {
+                                                    opacity: 0;
+                                                }
+                                                // REACT
+                                                #react {
+                                                    width: 6.5vw;
+                                                    height: 6.5vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                }
+                                                #react.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #react_description {
+                                                    opacity: 0;
+                                                }
+                                                #react_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // FIGMA
+                                                #figma {
+                                                    width: 6.5vw;
+                                                    height: 6.5vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                }
+                                                #figma.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #figma_description {
+                                                    opacity: 0;
+                                                }
+                                                #figma_description.show {
+                                                    transition: .5s all ease-in; 
+                                                }
+                                                // FIREBASE
+                                                #firebase {
+                                                    width: 4vw;
+                                                    height: 5vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    // background-color: yellow;
+                                                }
+                                                #firebase.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #firebase_description {
+                                                    opacity: 0;
+                                                }
+                                                #firebase_description.show {
+                                                    transition: .5s all ease-in; 
+                                                }
+                                                // MONGO
+                                                #mongo {
+                                                    width: 3vw;
+                                                    height: 6vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: 0vh 0 0 0;
+                                                }
+                                                #mongo.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #mongo_description {
+                                                    opacity: 0;
+                                                }
+                                                #mongo_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // DJANGO
+                                                #django {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: 0vh 1vw 0 0; 
+                                                }
+                                                #django.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #django_description {
+                                                    opacity: 0;
+                                                }
+                                                #django_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // AWS
+                                                #aws {
+                                                    width: 7vw;
+                                                    height: 7vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: 0vh 0vw 0 0;  
+                                                }
+                                                #aws.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #aws_description {
+                                                    opacity: 0;
+                                                }
+                                                #aws_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                                // HEROKU
+                                                #heroku {
+                                                    width: 6vw;
+                                                    height: 6vw;
+                                                    transition: .7s all ease-in;
+                                                    position: absolute;
+                                                    margin: -.5vhvh 0vw 0 0;  
+                                                }
+                                                #heroku.dissapear {
+                                                    opacity: 0;
+                                                }
+                                                #heroku_description {
+                                                    opacity: 0;
+                                                }
+                                                #heroku_description.show {
+                                                    transition: .5s all ease-in;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
+                // EXPERIENCE SECTION (LANDSCAPE)
+
             }
         }
     }
