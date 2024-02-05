@@ -303,7 +303,7 @@ $firstblue: #58a6ff;
                     }
                 }
                 // PORTFOLIO SECTION (PORTRAIT)
-                C {
+                #portfolio_section_id {
                     .portfolio_section_class {
                         display: flex;
                         flex-direction: column;
@@ -325,18 +325,19 @@ $firstblue: #58a6ff;
                             color: white;
                             height: 100%;
                             .portfolio_squares {
-                                margin: -7vh 0vw 0 2vw;
+                                margin: -13vh 0vw 0 2vw;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
                                 gap: 3vh;
+                                // background-color: #58a6ff;
                                 .portfolio_square {
                                     background-color: $portfolios;
                                     box-shadow: 6px 6px 10px black;
                                     border: none;
                                     width: 84vw;
-                                    height: 11.5vh;
+                                    height: 14vh;
                                     border-radius: 5px;
                                     display: flex;
                                     flex-direction: column;
@@ -352,8 +353,8 @@ $firstblue: #58a6ff;
                                         }
                                         #create_collab {
                                             margin: 0 0 0 3vw;
-                                            width: 50vw;
-                                            height: 3vh;
+                                            width: 52vw;
+                                            height: 3.5vh;
                                         }
                                         #msy {
                                             width: 65vw;

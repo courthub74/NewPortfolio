@@ -239,20 +239,20 @@
     color: white;
     text-decoration: none;
   }
-  * body .container C .portfolio_section_class {
+  * body .container #portfolio_section_id .portfolio_section_class {
     display: flex;
     flex-direction: column;
     height: 100vh;
     background-color: #080E2F;
   }
-  * body .container C .portfolio_section_class .section_title {
+  * body .container #portfolio_section_id .portfolio_section_class .section_title {
     margin: 5vh 0 0 10vw;
     font-family: "Inter", sans-serif;
     font-size: 10vw;
     font-weight: bold;
     color: white;
   }
-  * body .container C .portfolio_section_class .portfolio_section_content {
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -261,45 +261,45 @@
     color: white;
     height: 100%;
   }
-  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares {
-    margin: -7vh 0vw 0 2vw;
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares {
+    margin: -13vh 0vw 0 2vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 3vh;
   }
-  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square {
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square {
     background-color: #36395D;
     box-shadow: 6px 6px 10px black;
     border: none;
     width: 84vw;
-    height: 11.5vh;
+    height: 14vh;
     border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
-  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app {
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #skill_project {
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #skill_project {
     width: 65vw;
     margin: 0 1vw 0 0;
   }
-  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #create_collab {
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #create_collab {
     margin: 0 0 0 3vw;
-    width: 50vw;
-    height: 3vh;
+    width: 52vw;
+    height: 3.5vh;
   }
-  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #msy {
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #msy {
     width: 65vw;
     height: 9vh;
   }
-  * body .container C .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #workflow_app {
+  * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square .app #workflow_app {
     width: 56vw;
     height: 6vh;
   }
