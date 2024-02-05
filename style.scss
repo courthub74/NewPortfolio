@@ -23,7 +23,7 @@ $firstblue: #58a6ff;
 
 // MOBILE VERSIONS
 
-// PORTRAIT
+// PORTRAIT (MOBILE)
 @media only screen and (orientation: portrait) {
     * {
         margin: 0;
@@ -325,12 +325,12 @@ $firstblue: #58a6ff;
                             color: white;
                             height: 100%;
                             .portfolio_squares {
-                                margin: -13vh 0vw 0 2vw;
+                                margin: -8vh 0vw 0 2vw;
                                 display: flex;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                gap: 3vh;
+                                gap: 4vh;
                                 // background-color: #58a6ff;
                                 .portfolio_square {
                                     background-color: $portfolios;
@@ -1034,6 +1034,7 @@ $firstblue: #58a6ff;
                                                 justify-content: center;
                                                 gap: 1vw;
                                                 margin: 4vh 0 0 -1vw;
+                                                width: 100%;
                                                 #copyright_courdevs {
                                                     margin: -.7vh 0 0 0;
                                                     width: 8vw;
@@ -1062,7 +1063,7 @@ $firstblue: #58a6ff;
     }
 }
 
-// LANDSCAPE
+// LANDSCAPE (MOBILE)
 @media only screen and (orientation: landscape) {
     * {
         margin: 0;
@@ -1396,6 +1397,7 @@ $firstblue: #58a6ff;
                         height: 100vh;
                         width: 100vw;
                         background-color: $nextgreen;
+                        // background-color: yellow;
                         .skills_section_content {
                             color: white;
                             margin: 0 0 0 5vw;
@@ -2677,7 +2679,7 @@ $firstblue: #58a6ff;
                 // SKILLS SECTION (LANDSCAPE)
                 #skills_section_id {
                     .skills_section_class {
-                        height: 80vh;
+                        height: 105vh;
                         .skills_section_content {
                             .skills_title {
                                 font-size: 6vw;
@@ -2687,7 +2689,7 @@ $firstblue: #58a6ff;
                                 flex-direction: column;
                                 justify-content: center;
                                 align-items: center;
-                                margin: 0vh 0 0 0;
+                                margin: 5vh 0 0 0;
                                 .skills_circles_one {
                                     display: flex;
                                     // flex-direction: column;
@@ -2902,7 +2904,42 @@ $firstblue: #58a6ff;
                     }
                 }
                 // EXPERIENCE SECTION (LANDSCAPE)
-
+                #experience_section_id {
+                    .experience_section_class {
+                        .section_title {
+                            font-size: 6vw;
+                        }
+                        .experience_section_squares {
+                            display: flex;
+                            flex-direction: column;
+                            justify-content: center;
+                            align-items: center;
+                            gap: 6vh;
+                            margin: 7vh 0 0 0;
+                            .experience_box {
+                                .courdevs_content {
+                                    display: flex;
+                                    justify-content: center;
+                                    align-items: center;
+                                    margin: -6vh 6vw 0 0;
+                                    .courdevelops_logo {
+                                        margin: -7vh 0 0 7vw;
+                                        #courdevelops {
+                                            width: 10vw;
+                                            height: 10vw;
+                                        }
+                                    } 
+                                    .courdevelops_description {
+                                        margin: 16vh 0 0 20vw;
+                                        .main_description {
+                                            margin: -2.5vh 0 0 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
         }
     }

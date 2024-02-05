@@ -262,12 +262,12 @@
     height: 100%;
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares {
-    margin: -13vh 0vw 0 2vw;
+    margin: -8vh 0vw 0 2vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3vh;
+    gap: 4vh;
   }
   * body .container #portfolio_section_id .portfolio_section_class .portfolio_section_content .portfolio_squares .portfolio_square {
     background-color: #36395D;
@@ -919,6 +919,7 @@
     justify-content: center;
     gap: 1vw;
     margin: 4vh 0 0 -1vw;
+    width: 100%;
   }
   * body .container #contact_section_id .contact_section_class .contact_section_form form .poweredby .copyrights #copyright_courdevs {
     margin: -0.7vh 0 0 0;
@@ -2310,7 +2311,7 @@
     height: 13vh;
   }
   * body .container #skills_section_id .skills_section_class {
-    height: 80vh;
+    height: 105vh;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_title {
     font-size: 6vw;
@@ -2320,7 +2321,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 0vh 0 0 0;
+    margin: 5vh 0 0 0;
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one {
     display: flex;
@@ -2510,5 +2511,35 @@
   }
   * body .container #skills_section_id .skills_section_class .skills_section_content .skills_circles_section .skills_circles_one .skill_circle .skill_back .skill_front #heroku_description.show {
     transition: 0.5s all ease-in;
+  }
+  * body .container #experience_section_id .experience_section_class .section_title {
+    font-size: 6vw;
+  }
+  * body .container #experience_section_id .experience_section_class .experience_section_squares {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6vh;
+    margin: 7vh 0 0 0;
+  }
+  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -6vh 6vw 0 0;
+  }
+  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_logo {
+    margin: -7vh 0 0 7vw;
+  }
+  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_logo #courdevelops {
+    width: 10vw;
+    height: 10vw;
+  }
+  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description {
+    margin: 16vh 0 0 20vw;
+  }
+  * body .container #experience_section_id .experience_section_class .experience_section_squares .experience_box .courdevs_content .courdevelops_description .main_description {
+    margin: -2.5vh 0 0 0;
   }
 }/*# sourceMappingURL=style.css.map */
